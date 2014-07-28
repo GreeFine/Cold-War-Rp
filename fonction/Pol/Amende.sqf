@@ -1,0 +1,10 @@
+_selecteur = lbCurSel 77752;
+_amende = [99.5,99,98,97,95,90] select _selecteur;
+_player = cursorTarget;
+if(isNull _player) exitWith {hint "Personne n'est selectionné"};
+if !(_player in playableUnits) exitWith {hint "Personne n'est selectionné"};
+if (side _player == West) exitWith {hint "Tu ne peut mettre une amande à ton colégue"};
+player setVariable ["MonArgent",((player getVariable "MonArgent")+ _amende/2),true];
+_player setVariable ["MonArgent",((_player getVariable "MonArgent")*(_amende/100)),true];
+hint format ["%2 à payer %1 € d'amende",(_amende),(name _player)];
+{ if (player == _player ) then {hint format ["Tu as payer %1 € d'amende", _amende]}}forEach playableUnits;

@@ -1,0 +1,12 @@
+hint "Bonne Nuit";
+player setVariable ["MonArgent",((player getVariable "MonArgent") - 250)];
+		player setVariable ["Boire",100];
+		player setVariable ["Manger",100];
+		player setVariable ["Dormir",100];
+		player setVariable ["Action",1];
+player playMove "AmovPercMstpSnonWnonDnon_AmovPpneMstpSnonWnonDnon";
+titleCut ["", "BLACK",5];
+sleep 10;
+titleCut ["", "BLACK IN", 15];
+sleep 15;
+hint "Tu as payer 250 €";

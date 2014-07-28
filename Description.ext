@@ -1,0 +1,68 @@
+respawn = "BASE";
+respawnDelay = 15;
+enableDebugConsole = 1;
+scriptedPlayer = 1;
+respawnButton = 0;
+Counter = true;
+author="GreeFine";
+OnLoadName = "Devenez maitre de l'île";
+OnLoadMission = "Cold War Rp";
+loadScreen = "images\coldwar.paa";
+allowFunctionsLog = 1;
+respawnDialog = 1;
+disableChannels[]={2};
+disabledAI = true;
+enableItemsDropping = 0;
+#include "dialogBase.hpp"
+#include "dialogShop.hpp"
+#include "dialogMenu.hpp"
+#include "dialoglicense.hpp"
+#include "hud\HUD.hpp"
+
+class Header
+{
+	gameType=RPG; // Game type,
+	minPlayers = 1; //min
+	maxPlayers = 128; //max
+};
+
+respawnTemplatesWest[] = {"RespawnWest"};
+respawnTemplatesCiv[] = {"RespawnCivil"};
+respawnTemplatesGuer[] = {"RespawnIndependent"};
+class CfgRespawnTemplates
+{
+	class RespawnCivil
+	{
+		onPlayerRespawn = "RespawnCivil.sqf";
+	};
+	class RespawnWest
+	{
+		onPlayerRespawn = "RespawnWest.sqf";
+	};
+	class RespawnIndependent
+	{
+		onPlayerRespawn = "RespawnIndependent.sqf";
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class sirenBanque
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "Siren_Banque";
+		// filename, volume, pitch
+		sound[] = {"sons\Siren_Long.ogg", 20, 1};
+		// subtitle delay in seconds, subtitle text
+		titles[] = {2, "*Siren*"};
+	};
+  	class SirenPol
+ 	 {
+ 	   name = "SirenPol";
+ 	   sound[] = {"\sons\siren_Pol.ogg", 1, 1};
+ 	   titles[] = {};
+ 	 };
+};
+
+

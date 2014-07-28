@@ -1,0 +1,23 @@
+if (locked cursorTarget == 1) then {
+createDialog "MenuRecupFarm";
+ctrlSetText[77791,format["Nom du Vehicule : %1",(cursorTarget)]];
+ctrlSetText[77792,format["Poids joueur : %1",(player getVariable "Poids")]];
+_veh = cursorTarget;
+if (!isnil{_veh getVariable "Heroine"}) then {lbAdd [77793,format["%1",(_veh getVariable "Heroine")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Pomme"}) then {lbAdd [77793,format["%1",(_veh getVariable "Pomme")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Sable"}) then {lbAdd [77793,format["%1",(_veh getVariable "Sable")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Bois"}) then {lbAdd [77793,format["%1",(_veh getVariable "Bois")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Pierre"}) then {lbAdd [77793,format["%1",(_veh getVariable "Pierre")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "SableTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "SableTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "BoisTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "BoisTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "PierreTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "PierreTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Poisson"}) then {lbAdd [77793,format["%1",(_veh getVariable "Poisson")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Petrole"}) then {lbAdd [77793,format["%1",(_veh getVariable "Petrole")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Fer"}) then {lbAdd [77793,format["%1",(_veh getVariable "Fer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "FerTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "FerTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Charbon"}) then {lbAdd [77793,format["%1",(_veh getVariable "Charbon")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "Diamant"}) then {lbAdd [77793,format["%1",(_veh getVariable "Diamant")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "HeroineTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "HeroineTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "DiamantTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "DiamantTransformer")]];} else {lbAdd [77793,"Vide"]};
+if (!isnil{_veh getVariable "PetroleTransformer"}) then {lbAdd [77793,format["%1",(_veh getVariable "PetroleTransformer")]];} else {lbAdd [77793,"Vide"]};
+							} else {hint "Le vehicule est vérouiller"};
