@@ -1,0 +1,14 @@
+private["_vcl"];
+_vcl = cursorTarget;
+if (isnil {_vcl}) exitWith {hint "Tu dois viser ta voiture"};
+if !(_vcl isKindOf "CAR" or _vcl isKindOf "Helicopter") exitWith {hint "Tu dois viser ton vehicle"};
+hint "Réparation ...";
+player playMove "AinvPknlMstpSlayWrflDnon_healed";
+sleep 8;
+player playMove "AinvPknlMstpSlayWrflDnon_healed";
+sleep 6;
+player removeItem "ToolKit";
+_vcl setDamage 0;
+hint "Véhicule Réparé !";
+sleep 2;
+hint "Le toolkit usagé à été supprimé de votre inventaire !";

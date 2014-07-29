@@ -1,0 +1,22 @@
+if (locked cursorTarget == 1) then {
+createDialog "MenuFarm";
+ctrlSetText[77781,format["Nom du Vehicule : %1",(cursorTarget)]];
+ctrlSetText[77782,format["Espace restant dans le vehicule : %1",(cursorTarget getVariable "Poids")]];
+if (!isnil{player getVariable "Heroine"}) then {lbAdd [77783,format["%1",(player getVariable "Heroine")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Pomme"}) then {lbAdd [77783,format["%1",(player getVariable "Pomme")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Sable"}) then {lbAdd [77783,format["%1",(player getVariable "Sable")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Bois"}) then {lbAdd [77783,format["%1",(player getVariable "Bois")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Pierre"}) then {lbAdd [77783,format["%1",(player getVariable "Pierre")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "SableTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "SableTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "BoisTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "BoisTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "PierreTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "PierreTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Poisson"}) then {lbAdd [77783,format["%1",(player getVariable "Poisson")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Petrole"}) then {lbAdd [77783,format["%1",(player getVariable "Petrole")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Fer"}) then {lbAdd [77783,format["%1",(player getVariable "Fer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "FerTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "FerTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Charbon"}) then {lbAdd [77783,format["%1",(player getVariable "Charbon")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "Diamant"}) then {lbAdd [77783,format["%1",(player getVariable "Diamant")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "HeroineTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "HeroineTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "DiamantTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "DiamantTransformer")]];} else {lbAdd [77783,"Vide"]};
+if (!isnil{player getVariable "PetroleTransformer"}) then {lbAdd [77783,format["%1",(player getVariable "PetroleTransformer")]];} else {lbAdd [77783,"Vide"]};
+							} else {hint "Le vehicule est vérouiller"};
