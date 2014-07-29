@@ -19,6 +19,7 @@ enableItemsDropping = 0;
 #include "dialoglicense.hpp"
 #include "hud\HUD.hpp"
 
+
 class Header
 {
 	gameType=RPG; // Game type,
