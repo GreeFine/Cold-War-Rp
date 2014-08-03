@@ -3,8 +3,9 @@ _list = nearestObjects [[14219,14971,-2], ["static"], 15000];
 {_x allowdamage false} forEach _list;
 if (isDedicated) then
 {
+	setDate[2014, 08, 3, 13, 0];
 	execVM "\ServerColdWarRp\init.sqf";
-	execVM "fonction\Serveur\AllDead.sqf";
+	execVM "\ServerColdWarRp\AllDead.sqf";
 }
 else
 {
