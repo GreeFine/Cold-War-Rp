@@ -13,5 +13,5 @@
 
 	execVM "fonction\Serveur\AdminVrBody.sqf";
 	execVM "fonction\serveur\whitelist.sqf";
-	//execVM "fonction\serveur\EnleverCorp.sqf";
-	//[] execVM "scripts\jump.sqf";
+	//execVM "fonction\serveur\EnleverCorp.sqf"; //introuvable...
+	//[] execVM "scripts\jump.sqf";// introuvable...
