@@ -37,11 +37,11 @@ class Mission
 		rainForced=1;
 		lightningsForced=1;
 		windForced=1;
-		year=1995;
-		month=7;
+		year=2014;
+		month=8;
 		day=21;
-		hour=19;
-		minute=55;
+		hour=10;
+		minute=15;
 		startFogBase=0.001;
 		forecastFogBase=0.001;
 		startFogDecay=0.0049999999;
