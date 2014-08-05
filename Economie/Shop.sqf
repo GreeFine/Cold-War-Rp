@@ -86,7 +86,7 @@ for "_i" from 0 to (count Menu) do {lbAdd [9750,(Menu select _i)]};
 MenuChoix = false;
 _Selecteur = lbCurSel 9750;
 waitUntil {MenuChoix or MenuExit or !dialog};
-
+//la selection est égale à null... enquêter pourquoi!
 while {_Selecteur >= 0 && !MenuChoix} do {
 sleep 0.1;
 _Selecteur = lbCurSel 9750;
