@@ -1,5 +1,7 @@
+player sidechat "Initialization shop";
 _ArgentPoche = (player getVariable "ArgentPoche");
 ItemType = _this select 3;
+player sidechat format ["Item type : %1", ItemType];
 /* Multi Menu Option
 _Type = _Argument select 0;
 _Menu = _Argument select 1;
@@ -84,19 +86,33 @@ for "_i" from 0 to (count Menu) do {lbAdd [9750,(Menu select _i)]};
 	ctrlSetText[9752,format["Shop %1",ItemType]];
 
 MenuChoix = false;
-_Selecteur = lbCurSel 9750;
+
 waitUntil {MenuChoix or MenuExit or !dialog};
-//la selection est égale à null... enquêter pourquoi!
-while {_Selecteur >= 0 && !MenuChoix} do {
-sleep 0.1;
 _Selecteur = lbCurSel 9750;
+
+ 
+while {_Selecteur >= 0 && !MenuChoix} do {
+
+player sidechat format ["Selection: :%1", _Selecteur]; 
+
+sleep 0.1;
+
+_Selecteur = lbCurSel 9750;
+
+player sidechat format ["Selection: :%1", _Selecteur];
+
 if (_Selecteur < 0 && MenuChoix) then {hint "Faite un choix";MenuChoix = false};
+
 if (MenuExit or !dialog) exitWith {};
 };
 
  if (_Selecteur >= 0) then {
+
 _prix = prix select _Selecteur;
 _item = item select _Selecteur;
+
+ player sidechat format ["prix: :%1  item: %2", prix select _Selecteur,item select _Selecteur];
+
 if (!isNil {poids}) then {poidsF = poids select _Selecteur};
 
 // _gradeIM = grade select 1; //["Nom",3];

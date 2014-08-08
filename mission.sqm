@@ -22,8 +22,8 @@ class Mission
 	randomSeed=7350345;
 	class Intel
 	{
-		briefingName="[A3LEF] Resistance Life [Fr]";
-		overviewText="Resistance Life";
+		briefingName="Cold-War-RP Pre Alpha [Fr]";
+		overviewText="Cold-War-RP Pre Alpha";
 		resistanceWest=0;
 		timeOfChanges=15180;
 		startWeather=0.84999996;
@@ -37,11 +37,11 @@ class Mission
 		rainForced=1;
 		lightningsForced=1;
 		windForced=1;
-		year=2014;
-		month=8;
+		year=1995;
+		month=7;
 		day=21;
-		hour=10;
-		minute=15;
+		hour=19;
+		minute=55;
 		startFogBase=0.001;
 		forecastFogBase=0.001;
 		startFogDecay=0.0049999999;
@@ -2723,7 +2723,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=372;
+		items=373;
 		class Item0
 		{
 			position[]={8621.0156,181.20139,18265.525};
@@ -2876,7 +2876,7 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={3552.6104,4.4616275,13192.645};
+			position[]={3668.8379,10.440722,13114.81};
 			name="Vendeur de véhicules (civil)";
 			text="Vendeur de voitures";
 			type="mil_dot";
@@ -4233,7 +4233,7 @@ class Mission
 		};
 		class Item174
 		{
-			position[]={3552.5544,4.311162,13197.132};
+			position[]={3668.6499,10.434152,13104.463};
 			name="Vendeur VIP";
 			text="Vendeur de voitures VIP";
 			type="mil_dot";
@@ -5459,13 +5459,13 @@ class Mission
 		};
 		class Item349
 		{
-			position[]={3545.186,4.4111676,13192.151};
+			position[]={3648.521,10.232863,13118.001};
 			name="ShopVoitureC";
 			type="Empty";
 		};
 		class Item350
 		{
-			position[]={3544.7786,4.0204072,13200.911};
+			position[]={3648.1936,10.215954,13111.708};
 			name="ShopVoitureV";
 			type="Empty";
 		};
@@ -5625,6 +5625,12 @@ class Mission
 			name="Commissariat";
 			text="Commissariat";
 			type="flag_USA";
+		};
+		class Item372
+		{
+			position[]={3648.3076,10.230873,13115.299};
+			name="ShopVoitureI";
+			type="Empty";
 		};
 	};
 };
