@@ -1,6 +1,6 @@
 ////////////////////////////////////
 //Script Par GreeFine
-// révision par Le Kurde
+// revision par Le Kurde
 //initialisation principale
 //////////////////////////////////////
 player sidechat format ["%1", "Initialisation en cours"]; //remplacer par un log db plus tard...
@@ -9,8 +9,8 @@ _list = nearestObjects [[14219,14971,-2], ["static"], 15000];
 if (isDedicated) then
 {
 	//initialisation serveur
-	execVM "\ServerColdWarRp\init.sqf";    
-	execVM "\ServerColdWarRp\AllDead.sqf"; 
+	execVM "\ServerColdWarRp\init.sqf";
+	execVM "\ServerColdWarRp\AllDead.sqf";
 }
 else
 {
@@ -21,7 +21,7 @@ else
     //this code will run on every joining client
 };
 
-player sidechat format ["%1", "Initialisation effectuée"]; //remplacer par un log db plus tard...
+player sidechat format ["%1", "Initialisation effectu?e"]; //remplacer par un log db plus tard...
 
 /*
 onMapSingleClick {vehicle player setpos _pos};
