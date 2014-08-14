@@ -4,8 +4,10 @@
 //initialisation principale
 //////////////////////////////////////
 player sidechat format ["%1", "Initialisation en cours"]; //remplacer par un log db plus tard...
+
 _list = nearestObjects [[14219,14971,-2], ["static"], 15000];
-{_x allowdamage false} forEach _list;
+{_x allowdamage false} forEach _list;//building Destruction : off
+
 if (isDedicated) then
 {
 	//initialisation serveur
