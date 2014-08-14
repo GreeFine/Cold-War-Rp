@@ -3,6 +3,8 @@ _QuelVehicule = _this select 0;
 _QuelVendeur = _this select 1;
 _poids = _this select 2;
 Hint format ["%1",_QuelVehicule];
+player sidechat format ["Nom du vendeur: %1",_QuelVendeur];
+player sidechat format ["Marqueur pos :%1",(MarkerPos _QuelVendeur)];
 _veh = createvehicle [_QuelVehicule,(MarkerPos _QuelVendeur),[],5,""];
 _veh setvehicleVarName profileName;
 _veh setVariable ["Proprietaire",profileName,true];

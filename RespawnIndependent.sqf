@@ -11,7 +11,7 @@
 
 	player addAction ["Reparer Mon Vehicule",{player action ["repairVehicle", cursorTarget];sleep 10;cursorTarget setDamage 0},[],0,true,true,'','cursorTarget isKindOf "CAR"'];
 
-	execVM "fonction\Serveur\Admin.sqf";
+	execVM "fonction\Serveur\AdminVrBody.sqf";
 	execVM "fonction\serveur\whitelist.sqf";
-	execVM "fonction\serveur\EnleverCorp.sqf";
-	[] execVM "scripts\jump.sqf";
+	//execVM "fonction\serveur\EnleverCorp.sqf"; //introuvable...
+	//[] execVM "scripts\jump.sqf";// introuvable...

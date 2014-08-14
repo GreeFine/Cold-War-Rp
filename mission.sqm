@@ -22,8 +22,8 @@ class Mission
 	randomSeed=7350345;
 	class Intel
 	{
-		briefingName="[A3LEF] Resistance Life [Fr]";
-		overviewText="Resistance Life";
+		briefingName="Cold-War-RP Pre Alpha [Fr]";
+		overviewText="Cold-War-RP Pre Alpha";
 		resistanceWest=0;
 		timeOfChanges=15180;
 		startWeather=0.84999996;
@@ -2723,7 +2723,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=372;
+		items=371;
 		class Item0
 		{
 			position[]={8621.0156,181.20139,18265.525};
@@ -2876,7 +2876,7 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={3552.6104,4.4616275,13192.645};
+			position[]={3668.8379,10.440722,13114.81};
 			name="Vendeur de véhicules (civil)";
 			text="Vendeur de voitures";
 			type="mil_dot";
@@ -3220,7 +3220,7 @@ class Mission
 		};
 		class Item59
 		{
-			position[]={3684.2205,10.600541,13112.062};
+			position[]={3682.5408,10.550827,13111.054};
 			name="Vendeur de sacs";
 			text="Vendeur de sacs";
 			type="mil_dot";
@@ -3228,7 +3228,7 @@ class Mission
 		};
 		class Item60
 		{
-			position[]={3683.5417,10.478059,13096.565};
+			position[]={3687.5513,10.6454,13109.301};
 			name="Vendeur d'objets";
 			text="Vendeur d'objets";
 			type="hd_dot";
@@ -3236,7 +3236,7 @@ class Mission
 		};
 		class Item61
 		{
-			position[]={3684.0427,10.626342,13115.283};
+			position[]={3687.3469,10.679025,13112.431};
 			name="Vendeur de vetements civil";
 			text="Vendeur de vetements";
 			type="mil_dot";
@@ -4233,7 +4233,7 @@ class Mission
 		};
 		class Item174
 		{
-			position[]={3552.5544,4.311162,13197.132};
+			position[]={3665.8501,10.438591,13098.702};
 			name="Vendeur VIP";
 			text="Vendeur de voitures VIP";
 			type="mil_dot";
@@ -5459,41 +5459,29 @@ class Mission
 		};
 		class Item349
 		{
-			position[]={3545.186,4.4111676,13192.151};
-			name="ShopVoitureC";
-			type="Empty";
-		};
-		class Item350
-		{
-			position[]={3544.7786,4.0204072,13200.911};
-			name="ShopVoitureV";
-			type="Empty";
-		};
-		class Item351
-		{
 			position[]={3643.863,7.1335573,13359.615};
 			name="ShopCamionC";
 			type="Empty";
 		};
-		class Item352
+		class Item350
 		{
 			position[]={14776.102,17.91,16756.832};
 			name="ShopHelicoC";
 			type="Empty";
 		};
-		class Item353
+		class Item351
 		{
 			position[]={14823.801,17.91,16782.809};
 			name="ShopHelicoV";
 			type="Empty";
 		};
-		class Item354
+		class Item352
 		{
 			position[]={3359.8367,-0.053952932,12904.222};
 			name="ShopBateauC";
 			type="Empty";
 		};
-		class Item355
+		class Item353
 		{
 			position[]={17375.459,14.926672,13157.696};
 			name="Vendeur voiture cartel_1";
@@ -5501,7 +5489,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item356
+		class Item354
 		{
 			position[]={17405.699,13.130403,13242.381};
 			name="Vendeurs stuff russe_1";
@@ -5509,7 +5497,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item357
+		class Item355
 		{
 			position[]={17404.525,13.019865,13249.817};
 			name="Vendeur d'armes de russe_1";
@@ -5517,7 +5505,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item358
+		class Item356
 		{
 			position[]={17397.102,13.349605,13230.871};
 			name="Vendeur de bouffe_1";
@@ -5525,21 +5513,21 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item359
+		class Item357
 		{
 			position[]={10723.586,70.444687,18114.957};
 			name="b_1";
 			text="Territoire des USA";
 			type="flag_USA";
 		};
-		class Item360
+		class Item358
 		{
 			position[]={9455.8467,172.66103,18851.434};
 			name="Indé";
 			text="Indépandant";
 			type="flag_Altis";
 		};
-		class Item361
+		class Item359
 		{
 			position[]={17200.617,27.174343,16123.575};
 			name="Controle";
@@ -5547,7 +5535,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item362
+		class Item360
 		{
 			position[]={18218.26,16.567503,17570.512};
 			name="Controle_1";
@@ -5555,7 +5543,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item363
+		class Item361
 		{
 			position[]={16815.633,5.7330394,15579.159};
 			name="Controle_1_1";
@@ -5563,7 +5551,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item364
+		class Item362
 		{
 			position[]={17399.932,14.37991,17921.951};
 			name="Controle_1_2";
@@ -5571,7 +5559,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item365
+		class Item363
 		{
 			position[]={16623.619,27.060286,16753.588};
 			name="Controle_1_2_1";
@@ -5579,7 +5567,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item366
+		class Item364
 		{
 			position[]={16144.155,9.0074272,16078.787};
 			name="Controle_1_2_2";
@@ -5587,7 +5575,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item367
+		class Item365
 		{
 			position[]={3240.9492,2.1262026,12959.346};
 			name="Spawn voiture militaire_2";
@@ -5595,7 +5583,7 @@ class Mission
 			type="hd_dot";
 			colorName="ColorWEST";
 		};
-		class Item368
+		class Item366
 		{
 			position[]={3453.5576,5.7940111,12979.786};
 			name="Spawn helicos militaire_1";
@@ -5603,7 +5591,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item369
+		class Item367
 		{
 			position[]={3266.3882,0.34999165,12894.075};
 			name="Armurie militaire_2";
@@ -5611,7 +5599,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item370
+		class Item368
 		{
 			position[]={3259.6194,-0.16902357,12895.577};
 			name="Equipement US_2";
@@ -5619,12 +5607,18 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item371
+		class Item369
 		{
 			position[]={3256.8491,0.011542709,12873.196};
 			name="Commissariat";
 			text="Commissariat";
 			type="flag_USA";
+		};
+		class Item370
+		{
+			position[]={3654.0386,10.294621,13115.146};
+			name="SpawnVoitureKavalaPlace";
+			type="Empty";
 		};
 	};
 };

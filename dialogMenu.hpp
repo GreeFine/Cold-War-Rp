@@ -802,7 +802,7 @@ class MenuProfile
 	class Image: BaseRscPicture
 	{
 		idc = -1;
-		text = "images\loadScreen.paa";
+		text = "images\coldwar.paa";
 		x = 0.025;
 		y = 0.04;
 		w = 0.475;

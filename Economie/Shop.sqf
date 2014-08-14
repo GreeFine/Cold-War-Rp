@@ -1,14 +1,19 @@
+//player sidechat "Initialization shop";
 _ArgentPoche = (player getVariable "ArgentPoche");
-ItemType = _this select 3;
+ItemType = _this select 3 select 0;
 /* Multi Menu Option
 _Type = _Argument select 0;
 _Menu = _Argument select 1;
 */
 item = nil;prix = nil;Menu = nil;Marker = nil;
+//player sidechat format ["ItemType= %1",Itemtype];
+
 switch (side player) do {
     case civilian: {
 
 		    	switch (ItemType) do {
+			case "Vehicule Place Kavala": {item = ShopVoituresC;prix = ShopVoituresCPrix;Menu = ShopVoituresCMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresCPoids};
+			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
 			case "Vehicule": {item = ShopVoituresC;prix = ShopVoituresCPrix;Menu = ShopVoituresCMenu;Marker = "ShopVoitureC";poids = VoituresCPoids};
 			case "VehiculeV": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "ShopVoitureV";poids = VoituresVPoids};
 			case "Camion": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "ShopCamionC";poids = CamionsCPoids};
@@ -34,6 +39,8 @@ switch (side player) do {
 	    case west: {
 
 		    	switch (ItemType) do {
+			case "Vehicule Place Kavala" : {item = ShopVoituresB;prix = ShopVoituresBPrix;Menu = ShopVoituresBMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresBPoids};
+			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
 			case "Vehicule": {item = ShopVoituresB;prix = ShopVoituresBPrix;Menu = ShopVoituresBMenu;Marker = "ShopVoitureB";poids = VoituresBPoids};
 			case "Helico": {item = ShopHelicoB;prix = ShopHelicoBPrix;Menu = ShopHelicoBMenu;Marker = "ShopHelicoB";poids = HelicoBPoids};
 		    case "Armes": {item = ShopArmesB; prix = ShopArmesBPrix; Menu = ShopArmesBMenu};
@@ -49,6 +56,8 @@ switch (side player) do {
 	    case independent: {
 
 		    	switch (ItemType) do {
+			case "Vehicule Place Kavala" : {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresIPoids};
+			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
 			case "Vehicule": {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "ShopVoitureI";poids = VoituresIPoids};
 			case "Helico": {item = ShopHelicoI;prix = ShopHelicoIPrix;Menu = ShopHelicoIMenu;Marker = "ShopHelicoI";poids = IPoids};
 		    case "Armes": {item = ShopArmesI; prix = ShopArmesIPrix; Menu = ShopArmesIMenu};
@@ -63,6 +72,8 @@ switch (side player) do {
 	    case opfor: {
 
 		    	switch (ItemType) do {
+			case "Vehicule Place Kavala" : {item = ShopVoituresO;prix = ShopVoituresOPrix;Menu = ShopVoituresOMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresOPoids};
+			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
 			case "Vehicule": {item = ShopVoituresO;prix = ShopVoituresOPrix;Menu = ShopVoituresOMenu;Marker = "ShopVoitureO";poids = VoituresOPoids};
 			case "Helico": {item = ShopHelicoO;prix = ShopHelicoOPrix;Menu = ShopHelicoOMenu;Marker = "ShopHelicoO";poids = HelicoOPoids};
 		    case "Armes": {item = ShopArmesO; prix = ShopArmesOPrix; Menu = ShopArmesOMenu};
@@ -75,6 +86,7 @@ switch (side player) do {
 		};
 	 };
   };
+//player sidechat format ["Marker= %1",Marker];
 
   MenuExit = false;
  	createDialog "Shop";
@@ -84,19 +96,33 @@ for "_i" from 0 to (count Menu) do {lbAdd [9750,(Menu select _i)]};
 	ctrlSetText[9752,format["Shop %1",ItemType]];
 
 MenuChoix = false;
-_Selecteur = lbCurSel 9750;
-waitUntil {MenuChoix or MenuExit or !dialog};
 
-while {_Selecteur >= 0 && !MenuChoix} do {
-sleep 0.1;
+waitUntil {MenuChoix or MenuExit or !dialog};
 _Selecteur = lbCurSel 9750;
+
+ 
+while {_Selecteur >= 0 && !MenuChoix} do {
+
+//player sidechat format ["Selection: :%1", _Selecteur]; 
+
+sleep 0.1;
+
+_Selecteur = lbCurSel 9750;
+
+//player sidechat format ["Selection: :%1", _Selecteur];
+
 if (_Selecteur < 0 && MenuChoix) then {hint "Faite un choix";MenuChoix = false};
+
 if (MenuExit or !dialog) exitWith {};
 };
 
  if (_Selecteur >= 0) then {
+
 _prix = prix select _Selecteur;
 _item = item select _Selecteur;
+
+ //player sidechat format ["prix: :%1  item: %2", prix select _Selecteur,item select _Selecteur];
+
 if (!isNil {poids}) then {poidsF = poids select _Selecteur};
 
 // _gradeIM = grade select 1; //["Nom",3];
@@ -105,6 +131,8 @@ if (!isNil {poids}) then {poidsF = poids select _Selecteur};
 if (_ArgentPoche <= _prix) exitWith {hint "Tu n'as pas assez d'argent"};
 	player setVariable ["ArgentPoche", _ArgentPoche - _prix,true];
 	    	switch (ItemType) do {
+		case "Vehicule Place Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
+		case "Vehicule VIP Place Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Vehicule": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "VehiculeV": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Camion": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};

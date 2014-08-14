@@ -57,6 +57,6 @@ waitUntil {Initialisation};
 	player addItem "ItemGPS";
 	4 radioChannelAdd [player];
 
-	 execVM "fonction\serveur\EnleverCorp.sqf";
-	[] execVM "scripts\HuH.sqf";
- 	[] execVM "scripts\jump.sqf";
+	// execVM "fonction\serveur\EnleverCorp.sqf"; introuvable
+	//[] execVM "scripts\HuH.sqf"; introuvable
+ 	//[] execVM "scripts\jump.sqf"; introuvable

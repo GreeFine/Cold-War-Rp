@@ -1,4 +1,9 @@
-waitUntil {alive player};
+////////////////////////////////////
+//Script Par GreeFine
+// révision par Le Kurde
+//initialisation Joueurs
+//////////////////////////////////////
+waitUntil {alive player}; //le wait until est appelé à chaque frame(source BIS). Mieux qu'un while(true) mais je pense que l'ont peut trouver mieux plus tard.
 titleCut ["", "BLACK", 1];
 hint "Initialisation Joueur";
 puid = getPlayerUID player;
@@ -33,7 +38,7 @@ execVM "fonction\Serveur\AFK.sqf";
 execVM "fonction\Serveur\LockInven.sqf";
 execVM "hud\InitHud.sqf";
 execVM "fonction\serveur\NomdesJoueur.sqf";
-execVM "Economie\InitNpc.sqf";
+execVM "Economie\InitNpc.sqf"; //initialisation des npc à chaque joueur??
 execVM "fonction\serveur\RealisticFuel.sqf";
 sleep 0.2;
 hint "Joueur initialisé";
