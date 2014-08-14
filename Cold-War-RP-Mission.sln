@@ -1,0 +1,224 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA2ABD09-A316-438A-9891-F69C290389CB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		author.txt = author.txt
+		Description.ext = Description.ext
+		dialogBase.hpp = dialogBase.hpp
+		dialoglicense.hpp = dialoglicense.hpp
+		dialogMenu.hpp = dialogMenu.hpp
+		dialogShop.hpp = dialogShop.hpp
+		Functions.h = Functions.h
+		init.sqf = init.sqf
+		InitJoueur.sqf = InitJoueur.sqf
+		initServer.sqf = initServer.sqf
+		mission.sqm = mission.sqm
+		NPCTest.sqf = NPCTest.sqf
+		README.md = README.md
+		RespawnCivil.sqf = RespawnCivil.sqf
+		RespawnIndependent.sqf = RespawnIndependent.sqf
+		RespawnWest.sqf = RespawnWest.sqf
+		Variables.sqf = Variables.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Economie", "Economie", "{ED9AC849-0A08-4DAB-A047-9C07588F9256}"
+	ProjectSection(SolutionItems) = preProject
+		Economie\EBanque.sqf = Economie\EBanque.sqf
+		Economie\ECreation.sqf = Economie\ECreation.sqf
+		Economie\InitNpc.sqf = Economie\InitNpc.sqf
+		Economie\Resources.sqf = Economie\Resources.sqf
+		Economie\Shop.sqf = Economie\Shop.sqf
+		Economie\Vente.sqf = Economie\Vente.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonction", "fonction", "{0348B26B-2E98-4B67-9A93-726F3914A5B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Civil", "Civil", "{691C6A4D-A55F-4742-9777-D718D3F784E1}"
+	ProjectSection(SolutionItems) = preProject
+		fonction\Civil\Alimentation.sqf = fonction\Civil\Alimentation.sqf
+		fonction\Civil\ArgentBraquage.sqf = fonction\Civil\ArgentBraquage.sqf
+		fonction\Civil\BraquerBanque.sqf = fonction\Civil\BraquerBanque.sqf
+		fonction\Civil\CHelicoS.sqf = fonction\Civil\CHelicoS.sqf
+		fonction\Civil\CVehiculeS.sqf = fonction\Civil\CVehiculeS.sqf
+		fonction\Civil\depanneur.sqf = fonction\Civil\depanneur.sqf
+		fonction\Civil\Entreprise.sqf = fonction\Civil\Entreprise.sqf
+		fonction\Civil\FarmVehicule.sqf = fonction\Civil\FarmVehicule.sqf
+		fonction\Civil\GateFamille.sqf = fonction\Civil\GateFamille.sqf
+		fonction\Civil\Hotel.sqf = fonction\Civil\Hotel.sqf
+		fonction\Civil\RecupFarmVehicule.sqf = fonction\Civil\RecupFarmVehicule.sqf
+		fonction\Civil\repairkit.sqf = fonction\Civil\repairkit.sqf
+		fonction\Civil\Resources.sqf = fonction\Civil\Resources.sqf
+		fonction\Civil\SauvegardeGarage.sqf = fonction\Civil\SauvegardeGarage.sqf
+		fonction\Civil\SauvegardeHeliport.sqf = fonction\Civil\SauvegardeHeliport.sqf
+		fonction\Civil\X-Projets.sqf = fonction\Civil\X-Projets.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pol", "Pol", "{561C3296-C656-41B3-8092-3733ECF9CB1F}"
+	ProjectSection(SolutionItems) = preProject
+		fonction\Pol\Amende.sqf = fonction\Pol\Amende.sqf
+		fonction\Pol\demenoter.sqf = fonction\Pol\demenoter.sqf
+		fonction\Pol\EjectVehicule.sqf = fonction\Pol\EjectVehicule.sqf
+		fonction\Pol\fouiller.sqf = fonction\Pol\fouiller.sqf
+		fonction\Pol\Fouriere.sqf = fonction\Pol\Fouriere.sqf
+		fonction\Pol\GyroPol.sqf = fonction\Pol\GyroPol.sqf
+		fonction\Pol\menoter.sqf = fonction\Pol\menoter.sqf
+		fonction\Pol\menoter1.sqf = fonction\Pol\menoter1.sqf
+		fonction\Pol\MetreVehicule.sqf = fonction\Pol\MetreVehicule.sqf
+		fonction\Pol\MettredansV.sqf = fonction\Pol\MettredansV.sqf
+		fonction\Pol\Porter.sqf = fonction\Pol\Porter.sqf
+		fonction\Pol\Prison.sqf = fonction\Pol\Prison.sqf
+		fonction\Pol\Relacher.sqf = fonction\Pol\Relacher.sqf
+		fonction\Pol\Siren.sqf = fonction\Pol\Siren.sqf
+		fonction\Pol\SortirVehicule.sqf = fonction\Pol\SortirVehicule.sqf
+		fonction\Pol\TDFAccepter.sqf = fonction\Pol\TDFAccepter.sqf
+		fonction\Pol\TDFClient.sqf = fonction\Pol\TDFClient.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serveur", "Serveur", "{9EEB08CB-4765-4022-88CA-19E272DEAF21}"
+	ProjectSection(SolutionItems) = preProject
+		fonction\Serveur\AdminVrBody.sqf = fonction\Serveur\AdminVrBody.sqf
+		fonction\Serveur\AFK.sqf = fonction\Serveur\AFK.sqf
+		fonction\Serveur\Alarme.sqf = fonction\Serveur\Alarme.sqf
+		fonction\Serveur\CoolDownBank.sqf = fonction\Serveur\CoolDownBank.sqf
+		fonction\Serveur\DBCreateRequest.sqf = fonction\Serveur\DBCreateRequest.sqf
+		fonction\Serveur\DBSaveRequest.sqf = fonction\Serveur\DBSaveRequest.sqf
+		fonction\Serveur\DonnerArgent.sqf = fonction\Serveur\DonnerArgent.sqf
+		fonction\Serveur\DonnerArgent1.sqf = fonction\Serveur\DonnerArgent1.sqf
+		fonction\Serveur\InitLoadout.sqf = fonction\Serveur\InitLoadout.sqf
+		fonction\Serveur\Killed.sqf = fonction\Serveur\Killed.sqf
+		fonction\Serveur\LockInven.sqf = fonction\Serveur\LockInven.sqf
+		fonction\Serveur\NomdesJoueur.sqf = fonction\Serveur\NomdesJoueur.sqf
+		fonction\Serveur\Radio.sqf = fonction\Serveur\Radio.sqf
+		fonction\Serveur\Rank.sqf = fonction\Serveur\Rank.sqf
+		fonction\Serveur\RealisticFuel.sqf = fonction\Serveur\RealisticFuel.sqf
+		fonction\Serveur\Reparer.sqf = fonction\Serveur\Reparer.sqf
+		fonction\Serveur\Revenu.sqf = fonction\Serveur\Revenu.sqf
+		fonction\Serveur\SaveLoadout.sqf = fonction\Serveur\SaveLoadout.sqf
+		fonction\Serveur\Submarine.sqf = fonction\Serveur\Submarine.sqf
+		fonction\Serveur\Telephone_E.sqf = fonction\Serveur\Telephone_E.sqf
+		fonction\Serveur\Telephone_R.sqf = fonction\Serveur\Telephone_R.sqf
+		fonction\Serveur\Transfer.sqf = fonction\Serveur\Transfer.sqf
+		fonction\Serveur\transferArgent.sqf = fonction\Serveur\transferArgent.sqf
+		fonction\Serveur\VehiculeSpawn.sqf = fonction\Serveur\VehiculeSpawn.sqf
+		fonction\Serveur\Verouiller.sqf = fonction\Serveur\Verouiller.sqf
+		fonction\Serveur\Whitelist.sqf = fonction\Serveur\Whitelist.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Housing", "Housing", "{D88AD4B8-15B1-4F1B-8DE3-3ABB0D2786F5}"
+	ProjectSection(SolutionItems) = preProject
+		Housing\H_Lock.sqf = Housing\H_Lock.sqf
+		Housing\Init.sqf = Housing\Init.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hud", "hud", "{383333E8-7A71-4769-B5E3-C326CB1F2323}"
+	ProjectSection(SolutionItems) = preProject
+		hud\HUD.hpp = hud\HUD.hpp
+		hud\InitHud.sqf = hud\InitHud.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{BEBDC1FA-281F-4858-9D17-BF229A4DFE1D}"
+	ProjectSection(SolutionItems) = preProject
+		icons\food.paa = icons\food.paa
+		icons\health.paa = icons\health.paa
+		icons\money.paa = icons\money.paa
+		icons\water.paa = icons\water.paa
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{815CB52A-6603-4989-B814-44BBA1F1D9BE}"
+	ProjectSection(SolutionItems) = preProject
+		images\coldwar.paa = images\coldwar.paa
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "menu", "menu", "{07CBDA3E-30B4-4037-9C07-5CA926046345}"
+	ProjectSection(SolutionItems) = preProject
+		menu\Amende.sqf = menu\Amende.sqf
+		menu\ArgentRevenu.sqf = menu\ArgentRevenu.sqf
+		menu\ArgentVersBanque.sqf = menu\ArgentVersBanque.sqf
+		menu\ArgentVersPoche.sqf = menu\ArgentVersPoche.sqf
+		menu\FarmVehicule.sqf = menu\FarmVehicule.sqf
+		menu\Formation.sqf = menu\Formation.sqf
+		menu\license.sqf = menu\license.sqf
+		menu\MenuBanque.sqf = menu\MenuBanque.sqf
+		menu\MenuHeliport.sqf = menu\MenuHeliport.sqf
+		menu\MenuJoueur.sqf = menu\MenuJoueur.sqf
+		menu\Prison.sqf = menu\Prison.sqf
+		menu\RecupFarmVehicule.sqf = menu\RecupFarmVehicule.sqf
+		menu\transfermenu.sqf = menu\transfermenu.sqf
+		menu\Transformation.sqf = menu\Transformation.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sons", "sons", "{ECECAA81-5784-4A61-9ECA-306E37497BD3}"
+	ProjectSection(SolutionItems) = preProject
+		sons\bip.MP3 = sons\bip.MP3
+		sons\Siren_Long.ogg = sons\Siren_Long.ogg
+		sons\siren_Pol.ogg = sons\siren_Pol.ogg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServeurSide", "ServeurSide", "{602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\ServerColdWarRp\AllDead.sqf = ..\ServerColdWarRp\AllDead.sqf
+		..\ServerColdWarRp\init.sqf = ..\ServerColdWarRp\init.sqf
+		..\ServerColdWarRp\Maping.sqf = ..\ServerColdWarRp\Maping.sqf
+		..\ServerColdWarRp\Npc.sqf = ..\ServerColdWarRp\Npc.sqf
+		..\ServerColdWarRp\Radio.sqf = ..\ServerColdWarRp\Radio.sqf
+		..\ServerColdWarRp\ServerTime.sqf = ..\ServerColdWarRp\ServerTime.sqf
+		..\ServerColdWarRp\TDFServer.sqf = ..\ServerColdWarRp\TDFServer.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{3D479EE8-E2E0-4D84-B285-06B5A9DB34F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\ServerColdWarRp\DB\DB_Money.sqf = ..\ServerColdWarRp\DB\DB_Money.sqf
+		..\ServerColdWarRp\DB\DBCreate.sqf = ..\ServerColdWarRp\DB\DBCreate.sqf
+		..\ServerColdWarRp\DB\DBDelete.sqf = ..\ServerColdWarRp\DB\DBDelete.sqf
+		..\ServerColdWarRp\DB\DBEcreate.sqf = ..\ServerColdWarRp\DB\DBEcreate.sqf
+		..\ServerColdWarRp\DB\DBESelect.sqf = ..\ServerColdWarRp\DB\DBESelect.sqf
+		..\ServerColdWarRp\DB\DBEupdate.sqf = ..\ServerColdWarRp\DB\DBEupdate.sqf
+		..\ServerColdWarRp\DB\DBSelect.sqf = ..\ServerColdWarRp\DB\DBSelect.sqf
+		..\ServerColdWarRp\DB\DBUpdate.sqf = ..\ServerColdWarRp\DB\DBUpdate.sqf
+		..\ServerColdWarRp\DB\DBV_Create.sqf = ..\ServerColdWarRp\DB\DBV_Create.sqf
+		..\ServerColdWarRp\DB\DBV_Select.sqf = ..\ServerColdWarRp\DB\DBV_Select.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Economic", "Economic", "{7AF32A03-1273-4AFF-8A21-E59EAA9FC6B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\ServerColdWarRp\Economic\Economie.sqf = ..\ServerColdWarRp\Economic\Economie.sqf
+		..\ServerColdWarRp\Economic\Marchand.sqf = ..\ServerColdWarRp\Economic\Marchand.sqf
+		..\ServerColdWarRp\Economic\ShopArray.sqf = ..\ServerColdWarRp\Economic\ShopArray.sqf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{945F6172-53EC-4DDD-83D3-76E307AC1B95}"
+	ProjectSection(SolutionItems) = preProject
+		..\ServerColdWarRp\Ressources\Cannabis.sqf = ..\ServerColdWarRp\Ressources\Cannabis.sqf
+		..\ServerColdWarRp\Ressources\init.sqf = ..\ServerColdWarRp\Ressources\init.sqf
+		..\ServerColdWarRp\Ressources\Iron_A.sqf = ..\ServerColdWarRp\Ressources\Iron_A.sqf
+		..\ServerColdWarRp\Ressources\Iron_Ru.sqf = ..\ServerColdWarRp\Ressources\Iron_Ru.sqf
+		..\ServerColdWarRp\Ressources\Tree_A.sqf = ..\ServerColdWarRp\Ressources\Tree_A.sqf
+		..\ServerColdWarRp\Ressources\Tree_R.sqf = ..\ServerColdWarRp\Ressources\Tree_R.sqf
+		..\ServerColdWarRp\Ressources\Tree_Ru.sqf = ..\ServerColdWarRp\Ressources\Tree_Ru.sqf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED9AC849-0A08-4DAB-A047-9C07588F9256} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{0348B26B-2E98-4B67-9A93-726F3914A5B0} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{691C6A4D-A55F-4742-9777-D718D3F784E1} = {0348B26B-2E98-4B67-9A93-726F3914A5B0}
+		{561C3296-C656-41B3-8092-3733ECF9CB1F} = {0348B26B-2E98-4B67-9A93-726F3914A5B0}
+		{9EEB08CB-4765-4022-88CA-19E272DEAF21} = {0348B26B-2E98-4B67-9A93-726F3914A5B0}
+		{D88AD4B8-15B1-4F1B-8DE3-3ABB0D2786F5} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{383333E8-7A71-4769-B5E3-C326CB1F2323} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{BEBDC1FA-281F-4858-9D17-BF229A4DFE1D} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{815CB52A-6603-4989-B814-44BBA1F1D9BE} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{07CBDA3E-30B4-4037-9C07-5CA926046345} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{ECECAA81-5784-4A61-9ECA-306E37497BD3} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{3D479EE8-E2E0-4D84-B285-06B5A9DB34F4} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
+		{7AF32A03-1273-4AFF-8A21-E59EAA9FC6B9} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
+		{945F6172-53EC-4DDD-83D3-76E307AC1B95} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
+	EndGlobalSection
+EndGlobal
