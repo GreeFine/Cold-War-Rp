@@ -24,8 +24,8 @@ switch (side player) do {
 		    case "ArmesV": {item = ShopArmesV; prix = ShopArmesVPrix; Menu = ShopArmesVMenu};
 		    case "MunitionsL": {item = ShopMunitionsC; prix = ShopMunitionsCPrix; Menu = ShopMunitionsCMenu};
 		    case "MunitionsI": {item = ShopMunitionsC; prix = ShopMunitionsCPrix; Menu = ShopMunitionsCMenu};
-		    case "Items": {item = nil;prix = nil;Menu = nil};
-		    case "Sac": {item = nil;prix = nil;Menu = nil};
+		    case "Items": {item = nil; prix = nil; Menu = nil};
+		    case "Sac": {item = ShopSacsC;prix = ShopSacsCPrix;Menu = ShopSacsCMenu};
 		    case "Unifrom" : {item = ShopVetementsC;prix = ShopVetementsCPrix;Menu = ShopVetementsCMenu};
 		    case "UnifromV" : {item = ShopVetementsV;prix = ShopVetementsVPrix;Menu = ShopVetementsVMenu};
 		    case "Bateau" : {item = ShopBateauxC;prix = ShopBateauxCPrix;Menu = ShopBateauxCMenu;Marker = "ShopBateauC";poids = BateauxCPoids};
@@ -45,8 +45,8 @@ switch (side player) do {
 			case "Helico": {item = ShopHelicoB;prix = ShopHelicoBPrix;Menu = ShopHelicoBMenu;Marker = "ShopHelicoB";poids = HelicoBPoids};
 		    case "Armes": {item = ShopArmesB; prix = ShopArmesBPrix; Menu = ShopArmesBMenu};
 		    case "Munitions": {item = ShopMunitionsB; prix = ShopMunitionsBPrix; Menu = ShopMunitionsBMenu};
-		    case "Items": {item = nil;prix = nil;Menu = nil};
-		    case "Sac": {item = nil;prix = nil;Menu = nil};
+		    case "Items": {item = nil; prix = nil; Menu = nil};
+		    case "Sac": {item = ShopSacsC;prix = ShopSacsCPrix;Menu = ShopSacsCMenu};
 		    case "Unifrom" : {item = ShopVetementsB;prix = ShopVetementsBPrix;Menu = ShopVetementsBMenu};
 		    case "Bateau" : {item = ShopBateauxB;prix = BateauxBPrix;Menu = ShopBateauxBMenu;Marker = "ShopBateauB";poids = BateauxBPoids};
 		    case "Attachment" : {item = ShopAttachmentB;prix = ShopAttachmentBPrix;Menu = ShopAttachmentBMenu};
@@ -62,8 +62,8 @@ switch (side player) do {
 			case "Helico": {item = ShopHelicoI;prix = ShopHelicoIPrix;Menu = ShopHelicoIMenu;Marker = "ShopHelicoI";poids = IPoids};
 		    case "Armes": {item = ShopArmesI; prix = ShopArmesIPrix; Menu = ShopArmesIMenu};
 		    case "Munitions": {item = ShopMunitionsI; prix = ShopMunitionsIPrix; Menu = ShopMunitionsIMenu};
-		    case "Items": {item = nil;prix = nil;Menu = nil};
-		    case "Sac": {item = nil;prix = nil;Menu = nil};
+		    case "Items": {item = nil; prix = nil; Menu = nil};
+		    case "Sac": {item = ShopSacsC;prix = ShopSacsCPrix;Menu = ShopSacsCMenu};
 		    case "Unifrom" : {item = ShopVetementsI;prix = ShopVetementsIPrix;Menu = ShopVetementsIMenu};
 		    case "Bateau" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "ShopBateauI";poids = BateauxIPoids};
 		};
@@ -78,8 +78,8 @@ switch (side player) do {
 			case "Helico": {item = ShopHelicoO;prix = ShopHelicoOPrix;Menu = ShopHelicoOMenu;Marker = "ShopHelicoO";poids = HelicoOPoids};
 		    case "Armes": {item = ShopArmesO; prix = ShopArmesOPrix; Menu = ShopArmesOMenu};
 		    case "Munitions": {item = ShopMunitionsO; prix = ShopMunitionsOPrix; Menu = ShopMunitionsOMenu};
-		    case "Items": {item = nil;prix = nil;Menu = nil};
-		    case "Sac": {item = nil;prix = nil;Menu = nil};
+		    case "Items": {item = nil; prix = nil; Menu = nil};
+		    case "Sac": {item = ShopSacsC;prix = ShopSacsCPrix;Menu = ShopSacsCMenu};
 		    case "Unifrom" : {item = ShopVetementsO;prix = ShopVetementsOPrix;Menu = ShopVetementsOMenu};
 		    case "Bateau" : {item = ShopBateauxO;prix = BateauxOPrix;Menu = ShopBateauxOMenu;Marker = "ShopBateauO";poids = BateauxOPoids};
 		    case "projetx": {item = projetx};
@@ -93,7 +93,7 @@ switch (side player) do {
 for "_i" from 0 to (count Menu) do {lbAdd [9750,(Menu select _i)]};
 	ctrlSetText[9751,format["Argent en poche : %1",(player getVariable "ArgentPoche")]];
 	ctrlSetText[9753,format["Acheter %1",ItemType]];
-	ctrlSetText[9752,format["Shop %1",ItemType]];
+	ctrlSetText[9752,"Acheter"];
 
 MenuChoix = false;
 
@@ -145,8 +145,7 @@ if (_ArgentPoche <= _prix) exitWith {hint "Tu n'as pas assez d'argent"};
 	    case "Munitions": {player addMagazine _item};
 	    case "Items": {player additem _item};
 	    case "Sac": {player addBackpack _item};
-		case "UnifromL" : {player addUniform _item};
-		case "UnifromI" : {player addUniform _item};
+		case "Unifrom" : {player addUniform _item};
 		case "VestL" : {player addVest _item};
 		case "VestI" : {player addVest _item};
 		case "AttachmentL" : {player additem _item};

@@ -3220,7 +3220,7 @@ class Mission
 		};
 		class Item59
 		{
-			position[]={3682.5408,10.550827,13111.054};
+			position[]={3683.1792,10.566148,13111.054};
 			name="Vendeur de sacs";
 			text="Vendeur de sacs";
 			type="mil_dot";
@@ -3228,7 +3228,7 @@ class Mission
 		};
 		class Item60
 		{
-			position[]={3687.5513,10.6454,13109.301};
+			position[]={3686.9529,10.631975,13109.342};
 			name="Vendeur d'objets";
 			text="Vendeur d'objets";
 			type="hd_dot";
