@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA2ABD09-A316-438A-9891-F69C290389CB}"
 	ProjectSection(SolutionItems) = preProject
@@ -158,47 +158,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sons", "sons", "{ECECAA81-5
 		sons\siren_Pol.ogg = sons\siren_Pol.ogg
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServeurSide", "ServeurSide", "{602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServeurColdWarRp", "ServeurColdWarRp", "{842FE56B-732D-47B3-909B-2A41135E9A1D}"
 	ProjectSection(SolutionItems) = preProject
-		..\ServerColdWarRp\AllDead.sqf = ..\ServerColdWarRp\AllDead.sqf
-		..\ServerColdWarRp\init.sqf = ..\ServerColdWarRp\init.sqf
-		..\ServerColdWarRp\Maping.sqf = ..\ServerColdWarRp\Maping.sqf
-		..\ServerColdWarRp\Npc.sqf = ..\ServerColdWarRp\Npc.sqf
-		..\ServerColdWarRp\Radio.sqf = ..\ServerColdWarRp\Radio.sqf
-		..\ServerColdWarRp\ServerTime.sqf = ..\ServerColdWarRp\ServerTime.sqf
-		..\ServerColdWarRp\TDFServer.sqf = ..\ServerColdWarRp\TDFServer.sqf
+		ServerColdWarRp\AllDead.sqf = ServerColdWarRp\AllDead.sqf
+		ServerColdWarRp\init.sqf = ServerColdWarRp\init.sqf
+		ServerColdWarRp\Maping.sqf = ServerColdWarRp\Maping.sqf
+		ServerColdWarRp\Npc.sqf = ServerColdWarRp\Npc.sqf
+		ServerColdWarRp\Radio.sqf = ServerColdWarRp\Radio.sqf
+		ServerColdWarRp\ServerTime.sqf = ServerColdWarRp\ServerTime.sqf
+		ServerColdWarRp\TDFServer.sqf = ServerColdWarRp\TDFServer.sqf
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{3D479EE8-E2E0-4D84-B285-06B5A9DB34F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{AFC50814-30A5-4794-B093-B75AFDF3DF13}"
 	ProjectSection(SolutionItems) = preProject
-		..\ServerColdWarRp\DB\DB_Money.sqf = ..\ServerColdWarRp\DB\DB_Money.sqf
-		..\ServerColdWarRp\DB\DBCreate.sqf = ..\ServerColdWarRp\DB\DBCreate.sqf
-		..\ServerColdWarRp\DB\DBDelete.sqf = ..\ServerColdWarRp\DB\DBDelete.sqf
-		..\ServerColdWarRp\DB\DBEcreate.sqf = ..\ServerColdWarRp\DB\DBEcreate.sqf
-		..\ServerColdWarRp\DB\DBESelect.sqf = ..\ServerColdWarRp\DB\DBESelect.sqf
-		..\ServerColdWarRp\DB\DBEupdate.sqf = ..\ServerColdWarRp\DB\DBEupdate.sqf
-		..\ServerColdWarRp\DB\DBSelect.sqf = ..\ServerColdWarRp\DB\DBSelect.sqf
-		..\ServerColdWarRp\DB\DBUpdate.sqf = ..\ServerColdWarRp\DB\DBUpdate.sqf
-		..\ServerColdWarRp\DB\DBV_Create.sqf = ..\ServerColdWarRp\DB\DBV_Create.sqf
-		..\ServerColdWarRp\DB\DBV_Select.sqf = ..\ServerColdWarRp\DB\DBV_Select.sqf
+		ServerColdWarRp\DB\DB_Money.sqf = ServerColdWarRp\DB\DB_Money.sqf
+		ServerColdWarRp\DB\DBCreate.sqf = ServerColdWarRp\DB\DBCreate.sqf
+		ServerColdWarRp\DB\DBDelete.sqf = ServerColdWarRp\DB\DBDelete.sqf
+		ServerColdWarRp\DB\DBEcreate.sqf = ServerColdWarRp\DB\DBEcreate.sqf
+		ServerColdWarRp\DB\DBESelect.sqf = ServerColdWarRp\DB\DBESelect.sqf
+		ServerColdWarRp\DB\DBEupdate.sqf = ServerColdWarRp\DB\DBEupdate.sqf
+		ServerColdWarRp\DB\DBSelect.sqf = ServerColdWarRp\DB\DBSelect.sqf
+		ServerColdWarRp\DB\DBUpdate.sqf = ServerColdWarRp\DB\DBUpdate.sqf
+		ServerColdWarRp\DB\DBV_Create.sqf = ServerColdWarRp\DB\DBV_Create.sqf
+		ServerColdWarRp\DB\DBV_Select.sqf = ServerColdWarRp\DB\DBV_Select.sqf
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Economic", "Economic", "{7AF32A03-1273-4AFF-8A21-E59EAA9FC6B9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Economic", "Economic", "{17D20A9C-BC64-47D5-A9D0-F3ABD787B436}"
 	ProjectSection(SolutionItems) = preProject
-		..\ServerColdWarRp\Economic\Economie.sqf = ..\ServerColdWarRp\Economic\Economie.sqf
-		..\ServerColdWarRp\Economic\Marchand.sqf = ..\ServerColdWarRp\Economic\Marchand.sqf
-		..\ServerColdWarRp\Economic\ShopArray.sqf = ..\ServerColdWarRp\Economic\ShopArray.sqf
+		ServerColdWarRp\Economic\Economie.sqf = ServerColdWarRp\Economic\Economie.sqf
+		ServerColdWarRp\Economic\Marchand.sqf = ServerColdWarRp\Economic\Marchand.sqf
+		ServerColdWarRp\Economic\ShopArray.sqf = ServerColdWarRp\Economic\ShopArray.sqf
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{945F6172-53EC-4DDD-83D3-76E307AC1B95}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{19F5B347-E143-4DCE-9FBB-9AA6ECD40A12}"
 	ProjectSection(SolutionItems) = preProject
-		..\ServerColdWarRp\Ressources\Cannabis.sqf = ..\ServerColdWarRp\Ressources\Cannabis.sqf
-		..\ServerColdWarRp\Ressources\init.sqf = ..\ServerColdWarRp\Ressources\init.sqf
-		..\ServerColdWarRp\Ressources\Iron_A.sqf = ..\ServerColdWarRp\Ressources\Iron_A.sqf
-		..\ServerColdWarRp\Ressources\Iron_Ru.sqf = ..\ServerColdWarRp\Ressources\Iron_Ru.sqf
-		..\ServerColdWarRp\Ressources\Tree_A.sqf = ..\ServerColdWarRp\Ressources\Tree_A.sqf
-		..\ServerColdWarRp\Ressources\Tree_R.sqf = ..\ServerColdWarRp\Ressources\Tree_R.sqf
-		..\ServerColdWarRp\Ressources\Tree_Ru.sqf = ..\ServerColdWarRp\Ressources\Tree_Ru.sqf
+		ServerColdWarRp\Ressources\Cannabis.sqf = ServerColdWarRp\Ressources\Cannabis.sqf
+		ServerColdWarRp\Ressources\init.sqf = ServerColdWarRp\Ressources\init.sqf
+		ServerColdWarRp\Ressources\Iron_A.sqf = ServerColdWarRp\Ressources\Iron_A.sqf
+		ServerColdWarRp\Ressources\Iron_Ru.sqf = ServerColdWarRp\Ressources\Iron_Ru.sqf
+		ServerColdWarRp\Ressources\Tree_A.sqf = ServerColdWarRp\Ressources\Tree_A.sqf
+		ServerColdWarRp\Ressources\Tree_R.sqf = ServerColdWarRp\Ressources\Tree_R.sqf
+		ServerColdWarRp\Ressources\Tree_Ru.sqf = ServerColdWarRp\Ressources\Tree_Ru.sqf
 	EndProjectSection
 EndProject
 Global
@@ -217,8 +217,9 @@ Global
 		{815CB52A-6603-4989-B814-44BBA1F1D9BE} = {DA2ABD09-A316-438A-9891-F69C290389CB}
 		{07CBDA3E-30B4-4037-9C07-5CA926046345} = {DA2ABD09-A316-438A-9891-F69C290389CB}
 		{ECECAA81-5784-4A61-9ECA-306E37497BD3} = {DA2ABD09-A316-438A-9891-F69C290389CB}
-		{3D479EE8-E2E0-4D84-B285-06B5A9DB34F4} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
-		{7AF32A03-1273-4AFF-8A21-E59EAA9FC6B9} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
-		{945F6172-53EC-4DDD-83D3-76E307AC1B95} = {602E2A5E-8D21-4935-B4A8-7AD93A55C1FB}
+		{842FE56B-732D-47B3-909B-2A41135E9A1D} = {DA2ABD09-A316-438A-9891-F69C290389CB}
+		{AFC50814-30A5-4794-B093-B75AFDF3DF13} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
+		{17D20A9C-BC64-47D5-A9D0-F3ABD787B436} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
+		{19F5B347-E143-4DCE-9FBB-9AA6ECD40A12} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
 	EndGlobalSection
 EndGlobal
