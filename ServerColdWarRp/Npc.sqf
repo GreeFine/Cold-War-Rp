@@ -21,15 +21,16 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Vehicule VIP Place Kavala",""]];
 
-
-_npc = _PNJ createUnit ["C_Nikos_aged", [3684.47,13096,0.00144267], [], 0, ""];
+//test avec indé mais liste vide!
+_npc = _PNJ createUnit ["C_Nikos_aged", [3685.47,13109,0.35244267], [], 0, ""];
 _npc switchmove "";
 _npc setDir 101.829;
-_npc setPos [3685.47,13109,0.00244267];
+_npc setPos [3685.47,13109,0.35244267];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Items",""]];
 
+//où est il???
 _npc = _PNJ createUnit ["C_Nikos_aged", [8672.61,18277.9,0.00141907], [], 0, ""];
 _npc switchmove "";
 _npc setDir 243.261;
@@ -38,37 +39,41 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Items",""]];
 
-_npc = _PNJ createUnit ["C_Nikos_aged", [3684.38,13112,0.00143886], [], 0, ""];
+//test avec indé! Attention remplace sac existant (et supprime son contenu!)
+_npc = _PNJ createUnit ["C_Nikos_aged", [3683,13111.1,0.35243886], [], 0, ""];
 _npc switchmove "";
 _npc setDir 228.807;
-_npc setPos [3683,13111.1,0.00243886];
+_npc setPos [3683,13111.1,0.35243886];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Sac",""]];
 
-_npc = _PNJ createUnit ["C_Nikos_aged", [3684.46,13115.3,0.00143886], [], 0, ""];
+//test avec indé ok! Attention remplace l'uniforme existant et son contenu!
+_npc = _PNJ createUnit ["C_Nikos_aged", [3687.43,13112.6,0.35243886], [], 0, ""];
 _npc switchmove "";
 _npc setDir 45.1365;
-_npc setPos [3687.43,13112.6,0.00243886];
+_npc setPos [3687.43,13112.6,0.35243886];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Unifrom",""]];
 
+//testé avec indé ok! Vérifier la hauteur!
 _npc = _PNJ createUnit ["C_Nikos_aged", [3348.09,12897.3,0.00142217], [], 0, ""];
 _npc switchmove "";
 _npc setDir 59.1386;
-_npc setPos [3348.09,12897.3,0.00142217];
+_npc setPos [3348.09,12897.3,1.50142217];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,"Bateau",""]];
+_npcUnit = _npcUnit+[[_npc,"Bateau Kavala",""]];
 
+//testé avec indé ok!!
 _npc = _PNJ createUnit ["C_Nikos_aged", [3645,13362.9,0.0014019], [], 0, ""];
 _npc switchmove "";
 _npc setDir 312.242;
 _npc setPos [3645,13362.9,0.0014019];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,"Camion",""]];
+_npcUnit = _npcUnit+[[_npc,"Camion Kavala",""]];
 
 _npc = _PNJ createUnit ["C_Nikos_aged", [4971.42,11369.9,0.00144196], [], 0, ""];
 _npc switchmove "";
@@ -102,10 +107,11 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"ArmesV",""]];
 
-_npc = _PNJ createUnit ['C_Nikos_aged', [3308.03,12969.8,0.00143886], [], 0, ""];
+//ok sur place Kavala mais listes vide pour l'instant!'
+_npc = _PNJ createUnit ['C_Nikos_aged', [3637.29,13101.8,0.15143886], [], 0, ""];
 _npc switchmove "";
-_npc setDir 176.559;
-_npc setPos [3308.03,12969.8,0.00143886];
+_npc setDir 356.559;
+_npc setPos [3637.29,13100.3,0.15143886];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Alimentation',""]];

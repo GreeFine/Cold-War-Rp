@@ -5460,7 +5460,7 @@ class Mission
 		class Item349
 		{
 			position[]={3643.863,7.1335573,13359.615};
-			name="ShopCamionC";
+			name="SpawnCamionKavala";
 			type="Empty";
 		};
 		class Item350
@@ -5478,7 +5478,7 @@ class Mission
 		class Item352
 		{
 			position[]={3359.8367,-0.053952932,12904.222};
-			name="ShopBateauC";
+			name="SpawnBateauKavala";
 			type="Empty";
 		};
 		class Item353
@@ -5593,15 +5593,15 @@ class Mission
 		};
 		class Item367
 		{
-			position[]={3266.3882,0.34999165,12894.075};
+			position[]={3273.5388,2.2107856,12979.014};
 			name="Armurie militaire_2";
-			text="Armurie";
+			text="Armurerie";
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
 		class Item368
 		{
-			position[]={3259.6194,-0.16902357,12895.577};
+			position[]={3272.1328,2.1880958,12965.039};
 			name="Equipement US_2";
 			text="Equipement";
 			type="mil_dot";
@@ -5609,7 +5609,7 @@ class Mission
 		};
 		class Item369
 		{
-			position[]={3256.8491,0.011542709,12873.196};
+			position[]={3240.7598,2.1003356,12974.409};
 			name="Commissariat";
 			text="Commissariat";
 			type="flag_USA";

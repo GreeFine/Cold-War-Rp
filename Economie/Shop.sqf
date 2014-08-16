@@ -14,6 +14,8 @@ switch (side player) do {
 		    	switch (ItemType) do {
 			case "Vehicule Place Kavala": {item = ShopVoituresC;prix = ShopVoituresCPrix;Menu = ShopVoituresCMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresCPoids};
 			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
+			case "Bateau Kavala" : {item = ShopBateauxC;prix = ShopBateauxCPrix;Menu = ShopBateauxCMenu;Marker = "SpawnBateauKavala";poids = BateauxCPoids};
+			case "Camion Kavala": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "SpawnCamionKavala";poids = CamionsCPoids};
 			case "Vehicule": {item = ShopVoituresC;prix = ShopVoituresCPrix;Menu = ShopVoituresCMenu;Marker = "ShopVoitureC";poids = VoituresCPoids};
 			case "VehiculeV": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "ShopVoitureV";poids = VoituresVPoids};
 			case "Camion": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "ShopCamionC";poids = CamionsCPoids};
@@ -41,6 +43,7 @@ switch (side player) do {
 		    	switch (ItemType) do {
 			case "Vehicule Place Kavala" : {item = ShopVoituresB;prix = ShopVoituresBPrix;Menu = ShopVoituresBMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresBPoids};
 			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
+			case "Bateau Kavala" : {item = ShopBateauxB;prix = BateauxBPrix;Menu = ShopBateauxBMenu;Marker = "SpawnBateauKavala";poids = BateauxBPoids};
 			case "Vehicule": {item = ShopVoituresB;prix = ShopVoituresBPrix;Menu = ShopVoituresBMenu;Marker = "ShopVoitureB";poids = VoituresBPoids};
 			case "Helico": {item = ShopHelicoB;prix = ShopHelicoBPrix;Menu = ShopHelicoBMenu;Marker = "ShopHelicoB";poids = HelicoBPoids};
 		    case "Armes": {item = ShopArmesB; prix = ShopArmesBPrix; Menu = ShopArmesBMenu};
@@ -58,6 +61,7 @@ switch (side player) do {
 		    	switch (ItemType) do {
 			case "Vehicule Place Kavala" : {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresIPoids};
 			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
+			case "Bateau Kavala" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "SpawnBateauKavala";poids = BateauxIPoids};
 			case "Vehicule": {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "ShopVoitureI";poids = VoituresIPoids};
 			case "Helico": {item = ShopHelicoI;prix = ShopHelicoIPrix;Menu = ShopHelicoIMenu;Marker = "ShopHelicoI";poids = IPoids};
 		    case "Armes": {item = ShopArmesI; prix = ShopArmesIPrix; Menu = ShopArmesIMenu};
@@ -66,6 +70,9 @@ switch (side player) do {
 		    case "Sac": {item = ShopSacsC;prix = ShopSacsCPrix;Menu = ShopSacsCMenu};
 		    case "Unifrom" : {item = ShopVetementsI;prix = ShopVetementsIPrix;Menu = ShopVetementsIMenu};
 		    case "Bateau" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "ShopBateauI";poids = BateauxIPoids};
+
+			//pour test, à enlever!
+			case "Camion Kavala": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "SpawnCamionKavala";poids = CamionsCPoids};
 		};
 	 };
 
@@ -74,6 +81,7 @@ switch (side player) do {
 		    	switch (ItemType) do {
 			case "Vehicule Place Kavala" : {item = ShopVoituresO;prix = ShopVoituresOPrix;Menu = ShopVoituresOMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresOPoids};
 			case "Vehicule VIP Place Kavala": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "SpawnVoitureKavalaPlace";poids = VoituresVPoids};
+			case "Bateau Kavala" : {item = ShopBateauxO;prix = BateauxOPrix;Menu = ShopBateauxOMenu;Marker = "SpawnBateauKavala";poids = BateauxOPoids};
 			case "Vehicule": {item = ShopVoituresO;prix = ShopVoituresOPrix;Menu = ShopVoituresOMenu;Marker = "ShopVoitureO";poids = VoituresOPoids};
 			case "Helico": {item = ShopHelicoO;prix = ShopHelicoOPrix;Menu = ShopHelicoOMenu;Marker = "ShopHelicoO";poids = HelicoOPoids};
 		    case "Armes": {item = ShopArmesO; prix = ShopArmesOPrix; Menu = ShopArmesOMenu};
@@ -133,6 +141,8 @@ if (_ArgentPoche <= _prix) exitWith {hint "Tu n'as pas assez d'argent"};
 	    	switch (ItemType) do {
 		case "Vehicule Place Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Vehicule VIP Place Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
+		case "Bateau Kavala" : {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
+		case "Camion Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Vehicule": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "VehiculeV": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Camion": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
