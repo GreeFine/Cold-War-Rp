@@ -5466,13 +5466,13 @@ class Mission
 		class Item350
 		{
 			position[]={14776.102,17.91,16756.832};
-			name="ShopHelicoC";
+			name="SpawnHelicoTerminal";
 			type="Empty";
 		};
 		class Item351
 		{
 			position[]={14823.801,17.91,16782.809};
-			name="ShopHelicoV";
+			name="SpawnHelicoVIPTerminal";
 			type="Empty";
 		};
 		class Item352

@@ -30,7 +30,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Items",""]];
 
-//où est il???
+//Ok mais liste item vide, verifier hauteur
 _npc = _PNJ createUnit ["C_Nikos_aged", [8672.61,18277.9,0.00141907], [], 0, ""];
 _npc switchmove "";
 _npc setDir 243.261;
@@ -58,7 +58,7 @@ _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Unifrom",""]];
 
 //testé avec indé ok! Vérifier la hauteur!
-_npc = _PNJ createUnit ["C_Nikos_aged", [3348.09,12897.3,0.00142217], [], 0, ""];
+_npc = _PNJ createUnit ["C_Nikos_aged", [3348.09,12897.3,1.50142217], [], 0, ""];
 _npc switchmove "";
 _npc setDir 59.1386;
 _npc setPos [3348.09,12897.3,1.50142217];
@@ -75,6 +75,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"Camion Kavala",""]];
 
+//testé avec indé ok!! Remplace l'existant!!'
 _npc = _PNJ createUnit ["C_Nikos_aged", [4971.42,11369.9,0.00144196], [], 0, ""];
 _npc switchmove "";
 _npc setDir 102.58;
@@ -83,6 +84,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"ArmesL",""]];
 
+//testé avec indé ok!! Remplace l'existant!! ET list = a celle du legal!
 _npc = _PNJ createUnit ["C_Nikos_aged", [8081.65,14431,0.00125122], [], 0, ""];
 _npc switchmove "";
 _npc setDir 331.057;
@@ -91,6 +93,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"ArmesI",""]];
 
+//Pas de liste!Et avant modif, pas de point d'entre dans la fonction'
 _npc = _PNJ createUnit ["C_Nikos_aged", [8082.08,14445,0.00144958], [], 0, ""];
 _npc switchmove "";
 _npc setDir 232.307;
@@ -99,6 +102,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,"VestI",""]];
 
+//testé avec indé ok!! Remplace l'existant!!
 _npc = _PNJ createUnit ["C_Nikos_aged", [4996.55,11354.5,0.0014801], [], 0, ""];
 _npc switchmove "";
 _npc setDir 102.58;
@@ -116,22 +120,16 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Alimentation',""]];
 
-_npc = _PNJ createUnit ['C_Nikos_aged', [9006.03,12058.3,0.00143623], [], 0, ""];
+//ok mais listes vide pour l'instant!
+_npc = _PNJ createUnit ['C_Nikos_aged', [9009.03,12058.3,0.50143623], [], 0, ""];
 _npc switchmove "";
 _npc setDir 290.781;
-_npc setPos [9006.03,12058.3,0.00143623];
+_npc setPos [9009.03,12058.3,0.50143623];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Alimentation',""]];
 
-_npc = _PNJ createUnit ['C_Nikos_aged', [14735.6,16792.3,0.00143814], [], 0, ""];
-_npc switchmove "";
-_npc setDir 130.466;
-_npc setPos [14735.6,16792.3,0.00143814];
-_npc allowDammage false;
-_npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,'Alimentation',""]];
-
+//ok mais listes vide pour l'instant!
 _npc = _PNJ createUnit ['C_Nikos_aged', [14607,16787.6,0.00143814], [], 0, ""];
 _npc switchmove "";
 _npc setDir 316.704;
@@ -140,21 +138,23 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Alimentation',""]];
 
+//testé avec indé ok!!
 _npc = _PNJ createUnit ['C_Nikos_aged', [14735,16792.2,0.00143814], [], 0, ""];
 _npc switchmove "";
 _npc setDir 130.699;
 _npc setPos [14735,16792.2,0.00143814];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,'Helico',""]];
+_npcUnit = _npcUnit+[[_npc,'Helico Terminal',""]];
 
+//testé avec indé ok!! mais hélicoptere inutilisable...
 _npc = _PNJ createUnit ['C_Nikos_aged', [14773.1,16827.9,0.00143814], [], 0, ""];
 _npc switchmove "";
 _npc setDir 132.785;
 _npc setPos [14773.1,16827.9,0.00143814];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,'HelicoV',""]];
+_npcUnit = _npcUnit+[[_npc,'Helico VIP Terminal',""]];
 
 /******************************************************Police**************************************************************/
 
