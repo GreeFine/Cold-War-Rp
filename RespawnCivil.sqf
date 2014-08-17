@@ -58,4 +58,7 @@ removeHeadgear player;
 
 	player addAction ["<t color='#084B8A'>Inventaire Personel</t>","Menu\MenuJoueur.sqf"];
 
-player addAction ["Se rafraichir",{player setVariable ["Boire",100]},[],0,true,true,'','(player == vehicle player && typeof cursorTarget == "Land_WaterBarrel_F")'];
+	player addAction ["Se rafraichir",{player setVariable ["Boire",100]},[],0,true,true,'','(player == vehicle player && typeof cursorTarget == "Land_WaterBarrel_F")'];
+
+	//ATM Action global
+	player addAction ["<t color='#084B8A'>Distributeur</t>",{[] execVM "MenuBanque.sqf"},[],0,true,true,'','player == vehicle player && (typeof cursorTarget == "Land_Atm_01_F" or typeof cursorTarget == "Land_Atm_02_F")'];

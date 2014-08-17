@@ -3,7 +3,8 @@
 // revision par Le Kurde
 //initialisation principale
 //////////////////////////////////////
-player sidechat format ["%1", "Initialisation en cours"]; //remplacer par un log db plus tard...
+diag_log "Initialisation Cold_War_Rp";
+diag_log "Initialisation en cours ..."; //remplacer par un log db plus tard...
 
 _list = nearestObjects [[14219,14971,-2], ["static"], 15000];
 {_x allowdamage false} forEach _list;//building Destruction : off
@@ -23,7 +24,7 @@ else
     //this code will run on every joining client
 };
 
-player sidechat format ["%1", "Initialisation effectu?e"]; //remplacer par un log db plus tard...
+diag_log "Initialisation effectue";
 
 /*
 onMapSingleClick {vehicle player setpos _pos};
