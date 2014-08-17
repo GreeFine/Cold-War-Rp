@@ -5,7 +5,7 @@
 //////////////////////////////////////
 waitUntil {alive player}; //le wait until est appelé à chaque frame(source BIS). Mieux qu'un while(true) mais je pense que l'ont peut trouver mieux plus tard.
 titleCut ["", "BLACK", 1];
-hint "Initialisation Joueur";
+diag_log "Initialisation Joueur";
 puid = getPlayerUID player;
 pname = name player;
 OPlayer = player;
@@ -41,7 +41,7 @@ execVM "fonction\serveur\NomdesJoueur.sqf";
 execVM "Economie\InitNpc.sqf"; //initialisation des npc à chaque joueur??
 execVM "fonction\serveur\RealisticFuel.sqf";
 sleep 0.2;
-hint "Joueur initialisé";
+diag_log "Joueur initialisé";
 Initialisation = true;
 titleCut ["", "BLACK IN", 5];
 titleText ["*** !!! Lisez les regles et jouer Rp Pour toute question vous pouvez nous conctacter !!! ***", "PLAIN"];

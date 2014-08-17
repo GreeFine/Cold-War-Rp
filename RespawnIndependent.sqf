@@ -8,10 +8,4 @@
     player addAction ["Recupere Ressource dans le Vehicule","menu\RecupfarmVehicule.sqf",[],7,true,true,'','(player distance cursorTarget) < 4 && (side player == civilian) && (cursorTarget iskindof "CAR" or cursorTarget iskindof "Helicopter" or cursorTarget iskindof "Ship")'];
     player addAction ['Verouiller / Deverouiller','fonction\Serveur\Verouiller.sqf',[],7,true,true,'','(vehicle player) != player && (vehicle player getVariable "Proprietaire") == profileName'];
 
-
 	player addAction ["Reparer Mon Vehicule",{player action ["repairVehicle", cursorTarget];sleep 10;cursorTarget setDamage 0},[],0,true,true,'','cursorTarget isKindOf "CAR"'];
-
-	execVM "fonction\Serveur\AdminVrBody.sqf";
-	execVM "fonction\serveur\whitelist.sqf";
-	//execVM "fonction\serveur\EnleverCorp.sqf"; //introuvable...
-	//[] execVM "scripts\jump.sqf";// introuvable...
