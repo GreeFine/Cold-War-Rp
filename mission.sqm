@@ -2723,7 +2723,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=371;
+		items=373;
 		class Item0
 		{
 			position[]={8621.0156,181.20139,18265.525};
@@ -5618,6 +5618,18 @@ class Mission
 		{
 			position[]={3654.0386,10.294621,13115.146};
 			name="SpawnVoitureKavalaPlace";
+			type="Empty";
+		};
+		class Item371
+		{
+			position[]={16053.486,13.619239,17032.484};
+			name="SpawnVehiculePoliceFrontiere";
+			type="Empty";
+		};
+		class Item372
+		{
+			position[]={2702.2783,-1.8863813,22045.67};
+			name="SpawnBateauIndependant";
 			type="Empty";
 		};
 	};

@@ -18,6 +18,9 @@ switch (side player) do {
 			case "Camion Kavala": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "SpawnCamionKavala";poids = CamionsCPoids};
 			case "Helico Terminal": {item = ShopHelicoC;prix = ShopHelicoCPrix;Menu = ShopHelicoCMenu;Marker = "SpawnHelicoTerminal";poids = HelicoCPoids};
 			case "Helico VIP Terminal": {item = ShopHelicoV;prix = ShopHelicoVPrix;Menu = ShopHelicoVMenu;Marker = "SpawnHelicoVIPTerminal";poids = HelicoVPoids};
+			case "Vehicule Police Frontiere" : {item=nil;prix=nil;Menu=nil};
+			case "Arme Police" : {item=nil;prix=nil;Menu=nil};
+			case "Bateau independant" : {item=nil;prix=nil;Menu=nil};
 
 			case "Vehicule": {item = ShopVoituresC;prix = ShopVoituresCPrix;Menu = ShopVoituresCMenu;Marker = "ShopVoitureC";poids = VoituresCPoids};
 			case "VehiculeV": {item = ShopVoituresV;prix = ShopVoituresVPrix;Menu = ShopVoituresVMenu;Marker = "ShopVoitureV";poids = VoituresVPoids};
@@ -50,6 +53,9 @@ switch (side player) do {
 			case "Bateau Kavala" : {item = ShopBateauxB;prix = BateauxBPrix;Menu = ShopBateauxBMenu;Marker = "SpawnBateauKavala";poids = BateauxBPoids};
 			case "Helico Terminal": {item = ShopHelicoB;prix = ShopHelicoBPrix;Menu = ShopHelicoBMenu;Marker = "SpawnHelicoTerminal";poids = HelicoBPoids};
 			case "Helico VIP Terminal": {item = ShopHelicoV;prix = ShopHelicoVPrix;Menu = ShopHelicoVMenu;Marker = "SpawnHelicoVIPTerminal";poids = HelicoVPoids};
+			case "Vehicule Police Frontiere" : {item=nil;prix=nil;Menu=nil};
+			case "Arme Police" : {item=nil;prix=nil;Menu=nil};
+			case "Bateau independant" : {item=nil;prix=nil;Menu=nil};
 
 			case "ArmesV": {item = ShopArmesV; prix = ShopArmesVPrix; Menu = ShopArmesVMenu};
 			case "Vehicule": {item = ShopVoituresB;prix = ShopVoituresBPrix;Menu = ShopVoituresBMenu;Marker = "ShopVoitureB";poids = VoituresBPoids};
@@ -72,7 +78,8 @@ switch (side player) do {
 			case "Bateau Kavala" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "SpawnBateauKavala";poids = BateauxIPoids};
 			case "Helico Terminal": {item = ShopHelicoI;prix = ShopHelicoIPrix;Menu = ShopHelicoIMenu;Marker = "SpawnHelicoTerminal";poids = IPoids};
 			case "Helico VIP Terminal": {item = ShopHelicoV;prix = ShopHelicoVPrix;Menu = ShopHelicoVMenu;Marker = "SpawnHelicoVIPTerminal";poids = HelicoVPoids};
-
+			case "Bateau independant" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "SpawnBateauIndependant";poids = BateauxIPoids};
+						
 			case "ArmesV": {item = ShopArmesV; prix = ShopArmesVPrix; Menu = ShopArmesVMenu};
 			case "Vehicule": {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "ShopVoitureI";poids = VoituresIPoids};
 			case "Helico": {item = ShopHelicoI;prix = ShopHelicoIPrix;Menu = ShopHelicoIMenu;Marker = "ShopHelicoI";poids = IPoids};
@@ -83,10 +90,12 @@ switch (side player) do {
 		    case "Unifrom" : {item = ShopVetementsI;prix = ShopVetementsIPrix;Menu = ShopVetementsIMenu};
 		    case "Bateau" : {item = ShopBateauxI;prix = BateauxIPrix;Menu = ShopBateauxIMenu;Marker = "ShopBateauI";poids = BateauxIPoids};
 
-			//pour test, à enlever!
+			//pour test, à mettre a nil pour signifier l'indisponibilité!
 			case "Camion Kavala": {item = ShopCamionsC;prix = ShopCamionsCPrix;Menu = ShopCamionsCMenu;Marker = "SpawnCamionKavala";poids = CamionsCPoids};
 			case "ArmesL": {item = ShopArmesC; prix = ShopArmesCPrix; Menu = ShopArmesCMenu};
 		    case "ArmesI": {item = ShopArmesC; prix = ShopArmesCPrix; Menu = ShopArmesCMenu};
+			case "Vehicule Police Frontiere" : {item = ShopVoituresI;prix = ShopVoituresIPrix;Menu = ShopVoituresIMenu;Marker = "SpawnVehiculePoliceFrontiere";poids = VoituresIPoids};
+			case "Arme Police" : {item = ShopArmesC; prix = ShopArmesCPrix; Menu = ShopArmesCMenu};
 		    
 		};
 	 };
@@ -99,6 +108,9 @@ switch (side player) do {
 			case "Bateau Kavala" : {item = ShopBateauxO;prix = BateauxOPrix;Menu = ShopBateauxOMenu;Marker = "SpawnBateauKavala";poids = BateauxOPoids};
 			case "Helico Terminal": {item = ShopHelicoO;prix = ShopHelicoOPrix;Menu = ShopHelicoOMenu;Marker = "SpawnHelicoTerminal";poids = HelicoOPoids};
 			case "Helico VIP Terminal": {item = ShopHelicoV;prix = ShopHelicoVPrix;Menu = ShopHelicoVMenu;Marker = "SpawnHelicoVIPTerminal";poids = HelicoVPoids};
+			case "Vehicule Police Frontiere" : {item=nil;prix=nil;Menu=nil};
+			case "Arme Police" : {item=nil;prix=nil;Menu=nil};
+			case "Bateau independant" : {item=nil;prix=nil;Menu=nil};
 
 			case "ArmesV": {item = ShopArmesV; prix = ShopArmesVPrix; Menu = ShopArmesVMenu};
 			case "Vehicule": {item = ShopVoituresO;prix = ShopVoituresOPrix;Menu = ShopVoituresOMenu;Marker = "ShopVoitureO";poids = VoituresOPoids};
@@ -164,6 +176,9 @@ if (_ArgentPoche <= _prix) exitWith {hint "Tu n'as pas assez d'argent"};
 		case "Camion Kavala": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Helico Terminal" : {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "Helico VIP Terminal" : {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
+		case "Vehicule Police Frontiere" : {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
+		case "Arme Police" : {player addWeapon _item};
+		case "Bateau independant" : {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 
 		case "Vehicule": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};
 		case "VehiculeV": {[_item,marker,poidsF] execVM "fonction\Serveur\VehiculeSpawn.sqf"};

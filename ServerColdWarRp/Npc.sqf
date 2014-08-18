@@ -147,7 +147,7 @@ _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Helico Terminal',""]];
 
-//testé avec indé ok!! mais hélicoptere inutilisable...
+//testé avec indé ok!!
 _npc = _PNJ createUnit ['C_Nikos_aged', [14773.1,16827.9,0.00143814], [], 0, ""];
 _npc switchmove "";
 _npc setDir 132.785;
@@ -158,13 +158,13 @@ _npcUnit = _npcUnit+[[_npc,'Helico VIP Terminal',""]];
 
 /******************************************************Police**************************************************************/
 
-_npc = _PNJ createUnit ['C_Nikos_aged', [16018.4,17043.6,0.0014534], [], 0, ""];
+_npc = _PNJ createUnit ['C_Nikos_aged', [16027.4,17036.1,0.0014534], [], 0, ""];
 _npc switchmove "";
 _npc setDir 125.887;
-_npc setPos [16018.4,17043.6,0.0014534];
+_npc setPos [16027.4,17036.1,0.0014534];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,'Vehicule',""]];
+_npcUnit = _npcUnit+[[_npc,'Vehicule Police Frontiere',""]];
 
 _npc = _PNJ createUnit ['C_Nikos_aged', [16151.3,16961.7,0.0014534], [], 0, ""];
 _npc switchmove "";
@@ -177,7 +177,7 @@ _npcUnit = _npcUnit+[[_npc,'Alimentation',""]];
 _npc = _PNJ createUnit ['C_Nikos_aged', [16086.2,16917,0.00140476], [], 0, ""];
 _npc switchmove "";
 _npc setDir 356.31;
-_npc setPos [16151.3,16961.7,0.0014534];
+_npc setPos [16086.2,16917,0.00140476];
 _npc allowDammage false;
 _npc enableSimulation false;
 _npcUnit = _npcUnit+[[_npc,'Items',""]];
@@ -188,20 +188,20 @@ _npc setDir 56.773;
 _npc setPos [16023.8,16958.3,0.00153255];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,'Items',""]];
+_npcUnit = _npcUnit+[[_npc,'Arme Police',""]];
 
 /***************************************************Américain*****************************************************************/
 
 
 
 /***************************************************Indépendant*****************************************************************/
-_npc = _PNJ createUnit ["C_Nikos_aged", [2722.44,22061.4,0.00151539], [], 0, ""];
+_npc = _PNJ createUnit ["C_Nikos_aged", [2720.95,22067.6,0.00151539], [], 0, ""];
 _npc switchmove "";
 _npc setDir 55.6241;
-_npc setPos [2722.44,22061.4,0.00151539];
+_npc setPos [2720.95,22067.6,0.00151539];
 _npc allowDammage false;
 _npc enableSimulation false;
-_npcUnit = _npcUnit+[[_npc,"bateau",""]];
+_npcUnit = _npcUnit+[[_npc,"Bateau independant",""]];
 
 _npc = _PNJ createUnit ["C_Nikos_aged", [4525.34,21389,0.00131226], [], 0, ""];
 _npc switchmove "";
