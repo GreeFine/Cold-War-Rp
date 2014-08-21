@@ -2723,7 +2723,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=373;
+		items=375;
 		class Item0
 		{
 			position[]={8621.0156,181.20139,18265.525};
@@ -3005,7 +3005,7 @@ class Mission
 		{
 			position[]={4526.0562,297.27475,21388.295};
 			name="Vendeur d'armes de Resistants";
-			text="Armurie";
+			text="Armurerie";
 			type="mil_dot";
 			colorName="ColorGUER";
 		};
@@ -5293,21 +5293,13 @@ class Mission
 		};
 		class Item327
 		{
-			position[]={9197.3271,16.52199,21570.707};
-			name="Helicopterecivil";
-			text="Vendeur d'hélicoptère civil";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item328
-		{
 			position[]={21171.859,18.927559,7525.6836};
 			name="Helicopterecivil_1";
 			text="Vendeur d'hélicoptère civil";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
-		class Item329
+		class Item328
 		{
 			position[]={14340.239,37.071846,18948.459};
 			name="Acheteur de pierres_2";
@@ -5315,13 +5307,13 @@ class Mission
 			type="mil_box";
 			colorName="ColorYellow";
 		};
-		class Item330
+		class Item329
 		{
 			position[]={8392.7549,96.474136,25177.064};
 			name="respawn_civilian";
 			type="Empty";
 		};
-		class Item331
+		class Item330
 		{
 			position[]={3654.5854,10.287643,13124.28};
 			name="atm";
@@ -5329,7 +5321,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item332
+		class Item331
 		{
 			position[]={3286.7837,2.2271357,12958.182};
 			name="atm_1";
@@ -5337,7 +5329,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item333
+		class Item332
 		{
 			position[]={8997.1016,25.198408,11977.67};
 			name="atm_2";
@@ -5345,7 +5337,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item334
+		class Item333
 		{
 			position[]={9461.1416,118.16969,15929.583};
 			name="atm_3";
@@ -5353,7 +5345,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item335
+		class Item334
 		{
 			position[]={8579.6016,179.91499,18255.637};
 			name="atm_4";
@@ -5361,7 +5353,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item336
+		class Item335
 		{
 			position[]={16773.949,20.673433,12632.862};
 			name="atm_5";
@@ -5369,7 +5361,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item337
+		class Item336
 		{
 			position[]={16568.779,11,12791.981};
 			name="atm_6";
@@ -5377,7 +5369,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item338
+		class Item337
 		{
 			position[]={21241.182,22.54347,16321.758};
 			name="atm_7";
@@ -5385,7 +5377,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item339
+		class Item338
 		{
 			position[]={25602.361,18.939373,21278.553};
 			name="atm_8";
@@ -5393,7 +5385,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item340
+		class Item339
 		{
 			position[]={21653.244,16.672682,7521.2813};
 			name="atm_9";
@@ -5401,7 +5393,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item341
+		class Item340
 		{
 			position[]={14577.661,17.91,16755.67};
 			name="atm_10";
@@ -5409,7 +5401,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item342
+		class Item341
 		{
 			position[]={13969.961,21.555834,18892.818};
 			name="atm_11";
@@ -5417,7 +5409,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item343
+		class Item342
 		{
 			position[]={9169.3545,14.405807,21654.402};
 			name="atm_12";
@@ -5425,7 +5417,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item344
+		class Item343
 		{
 			position[]={18152.139,25.760576,15238.52};
 			name="atm_13";
@@ -5433,55 +5425,55 @@ class Mission
 			type="mil_dot";
 			colorName="ColorYellow";
 		};
-		class Item345
+		class Item344
 		{
 			position[]={16806.324,23.937397,12664.138};
 			name="Hopital_Ru";
 			type="Empty";
 		};
-		class Item346
+		class Item345
 		{
 			position[]={3766.4663,18.864277,12974.045};
 			name="Hopital_A";
 			type="Empty";
 		};
-		class Item347
+		class Item346
 		{
 			position[]={14044.705,26.654875,18641.953};
 			name="Hopital_R";
 			type="Empty";
 		};
-		class Item348
+		class Item347
 		{
 			position[]={11416.506,24.88245,11700.964};
 			name="respawn_west";
 			type="flag_NATO";
 		};
-		class Item349
+		class Item348
 		{
 			position[]={3643.863,7.1335573,13359.615};
 			name="SpawnCamionKavala";
 			type="Empty";
 		};
-		class Item350
+		class Item349
 		{
 			position[]={14776.102,17.91,16756.832};
 			name="SpawnHelicoTerminal";
 			type="Empty";
 		};
-		class Item351
+		class Item350
 		{
 			position[]={14823.801,17.91,16782.809};
 			name="SpawnHelicoVIPTerminal";
 			type="Empty";
 		};
-		class Item352
+		class Item351
 		{
 			position[]={3359.8367,-0.053952932,12904.222};
 			name="SpawnBateauKavala";
 			type="Empty";
 		};
-		class Item353
+		class Item352
 		{
 			position[]={17375.459,14.926672,13157.696};
 			name="Vendeur voiture cartel_1";
@@ -5489,7 +5481,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item354
+		class Item353
 		{
 			position[]={17405.699,13.130403,13242.381};
 			name="Vendeurs stuff russe_1";
@@ -5497,7 +5489,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item355
+		class Item354
 		{
 			position[]={17404.525,13.019865,13249.817};
 			name="Vendeur d'armes de russe_1";
@@ -5505,7 +5497,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item356
+		class Item355
 		{
 			position[]={17397.102,13.349605,13230.871};
 			name="Vendeur de bouffe_1";
@@ -5513,21 +5505,21 @@ class Mission
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
-		class Item357
+		class Item356
 		{
 			position[]={10723.586,70.444687,18114.957};
 			name="b_1";
 			text="Territoire des USA";
 			type="flag_USA";
 		};
-		class Item358
+		class Item357
 		{
 			position[]={9455.8467,172.66103,18851.434};
 			name="Indé";
 			text="Indépandant";
 			type="flag_Altis";
 		};
-		class Item359
+		class Item358
 		{
 			position[]={17200.617,27.174343,16123.575};
 			name="Controle";
@@ -5535,7 +5527,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item360
+		class Item359
 		{
 			position[]={18218.26,16.567503,17570.512};
 			name="Controle_1";
@@ -5543,7 +5535,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item361
+		class Item360
 		{
 			position[]={16815.633,5.7330394,15579.159};
 			name="Controle_1_1";
@@ -5551,7 +5543,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorEAST";
 		};
-		class Item362
+		class Item361
 		{
 			position[]={17399.932,14.37991,17921.951};
 			name="Controle_1_2";
@@ -5559,7 +5551,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item363
+		class Item362
 		{
 			position[]={16623.619,27.060286,16753.588};
 			name="Controle_1_2_1";
@@ -5567,7 +5559,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item364
+		class Item363
 		{
 			position[]={16144.155,9.0074272,16078.787};
 			name="Controle_1_2_2";
@@ -5575,7 +5567,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorWEST";
 		};
-		class Item365
+		class Item364
 		{
 			position[]={3240.9492,2.1262026,12959.346};
 			name="Spawn voiture militaire_2";
@@ -5583,7 +5575,7 @@ class Mission
 			type="hd_dot";
 			colorName="ColorWEST";
 		};
-		class Item366
+		class Item365
 		{
 			position[]={3453.5576,5.7940111,12979.786};
 			name="Spawn helicos militaire_1";
@@ -5591,7 +5583,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item367
+		class Item366
 		{
 			position[]={3273.5388,2.2107856,12979.014};
 			name="Armurie militaire_2";
@@ -5599,7 +5591,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item368
+		class Item367
 		{
 			position[]={3272.1328,2.1880958,12965.039};
 			name="Equipement US_2";
@@ -5607,29 +5599,47 @@ class Mission
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
-		class Item369
+		class Item368
 		{
 			position[]={3240.7598,2.1003356,12974.409};
 			name="Commissariat";
 			text="Commissariat";
 			type="flag_USA";
 		};
-		class Item370
+		class Item369
 		{
 			position[]={3654.0386,10.294621,13115.146};
 			name="SpawnVoitureKavalaPlace";
 			type="Empty";
 		};
-		class Item371
+		class Item370
 		{
 			position[]={16053.486,13.619239,17032.484};
 			name="SpawnVehiculePoliceFrontiere";
 			type="Empty";
 		};
-		class Item372
+		class Item371
 		{
 			position[]={2702.2783,-1.8863813,22045.67};
 			name="SpawnBateauIndependant";
+			type="Empty";
+		};
+		class Item372
+		{
+			position[]={14305.557,25.92041,18593.742};
+			name="SpawnVehiculeAthira";
+			type="Empty";
+		};
+		class Item373
+		{
+			position[]={9196.3311,16.540895,21527.846};
+			name="SpawnHelicoIndependant";
+			type="Empty";
+		};
+		class Item374
+		{
+			position[]={4586.7056,299.58856,21386.539};
+			name="SpawnVehiculeOreokastro";
 			type="Empty";
 		};
 	};
