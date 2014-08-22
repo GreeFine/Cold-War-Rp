@@ -3,4 +3,4 @@ Cold-War-Rp
 
 Arma 3 Role Play Mission
 
-by GreeFine
+by GreeFine and Le Kurde

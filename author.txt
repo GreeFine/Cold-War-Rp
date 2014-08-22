@@ -1,7 +1,7 @@
 /*//////////////////////////////////////////////////////////////////////////////////////
-author : GreeFine
-Conctact adresse : greefine@hotmail.fr
+author : GreeFine / Le Kurde
+Conctact adresse : greefine@hotmail.fr / james.bozkir@outlook.com
 Mission : ColdWarRp
-Code written by GreeFine 
+Code written by GreeFine and reviewed by Le Kurde
 Using this code or mission without GreeFine direct permission is forbidden
 //////////////////////////////////////////////////////////////////////////////////////*/
