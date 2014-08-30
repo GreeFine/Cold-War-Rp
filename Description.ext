@@ -43,11 +43,11 @@ class CfgRespawnTemplates
 	};
 	class RespawnIndependent
 	{
-		onPlayerRespawn = core\fn_RespawnIndependent.sqf";
+		onPlayerRespawn = "core\fn_RespawnIndependent.sqf";
 	};
 	class respawnEast
 	{
-		onPlayerRespawn="core\fn_RespawnEast.sqf";
+		onPlayerRespawn = "core\fn_RespawnEast.sqf";
 	};
 };
 
