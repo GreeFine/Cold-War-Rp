@@ -35,19 +35,19 @@ class CfgRespawnTemplates
 {
 	class RespawnCivil
 	{
-		onPlayerRespawn = "ColdWar_fnc_RespawnCivil";
+		onPlayerRespawn = "core\fn_RespawnCivil.sqf";
 	};
 	class RespawnWest
 	{
-		onPlayerRespawn = "ColdWar_fnc_RespawnWest";
+		onPlayerRespawn = "core\fn_RespawnWest.sqf";
 	};
 	class RespawnIndependent
 	{
-		onPlayerRespawn = "ColdWar_fnc_RespawnIndependent";
+		onPlayerRespawn = core\fn_RespawnIndependent.sqf";
 	};
-	class RespawnEast
+	class respawnEast
 	{
-		onPlayerRespawn="ColdWar_fnc_RespawnEast";
+		onPlayerRespawn="core\fn_RespawnEast.sqf";
 	};
 };
 
