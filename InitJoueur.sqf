@@ -38,7 +38,8 @@ execVM "fonction\Serveur\AFK.sqf";
 execVM "fonction\Serveur\LockInven.sqf";
 execVM "hud\InitHud.sqf";
 execVM "fonction\serveur\NomdesJoueur.sqf";
-execVM "Economie\InitNpc.sqf"; //initialisation des npc à chaque joueur??
+execVM "Economie\InitNpc.sqf"; 
+execVM "Economie\InitATM.sqf";
 execVM "fonction\serveur\RealisticFuel.sqf";
 sleep 0.2;
 diag_log "Joueur initialisé";

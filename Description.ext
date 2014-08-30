@@ -4,9 +4,9 @@ enableDebugConsole = 1;
 scriptedPlayer = 1;
 respawnButton = 0;
 Counter = true;
-author="GreeFine";
-OnLoadName = "Devenez maitre de l'île";
-OnLoadMission = "Cold War Rp";
+author="GreeFine/Le Kurde";
+OnLoadName = "La guerre froide est de retour";
+OnLoadMission = "Cold War Rp Fr";
 loadScreen = "images\coldwar.paa";
 allowFunctionsLog = 1;
 respawnDialog = 1;
@@ -30,19 +30,24 @@ class Header
 respawnTemplatesWest[] = {"RespawnWest"};
 respawnTemplatesCiv[] = {"RespawnCivil"};
 respawnTemplatesGuer[] = {"RespawnIndependent"};
+respawntemplatesEast[] = {"RespawnEast"};
 class CfgRespawnTemplates
 {
 	class RespawnCivil
 	{
-		onPlayerRespawn = "RespawnCivil.sqf";
+		onPlayerRespawn = "fn_fn_RespawnCivil.sqf";
 	};
 	class RespawnWest
 	{
-		onPlayerRespawn = "RespawnWest.sqf";
+		onPlayerRespawn = "fn_fn_RespawnWest.sqf";
 	};
 	class RespawnIndependent
 	{
-		onPlayerRespawn = "RespawnIndependent.sqf";
+		onPlayerRespawn = "fn_fn_RespawnIndependent.sqf";
+	};
+	class respawnEast
+	{
+		onPlayerRespawn="fn_RespawnEast.sqf";
 	};
 };
 

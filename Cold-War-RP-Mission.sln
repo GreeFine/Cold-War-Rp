@@ -19,9 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		mission.sqm = mission.sqm
 		NPCTest.sqf = NPCTest.sqf
 		README.md = README.md
-		RespawnCivil.sqf = RespawnCivil.sqf
-		RespawnIndependent.sqf = RespawnIndependent.sqf
-		RespawnWest.sqf = RespawnWest.sqf
 		Variables.sqf = Variables.sqf
 	EndProjectSection
 EndProject
@@ -29,6 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Economie", "Economie", "{ED
 	ProjectSection(SolutionItems) = preProject
 		Economie\EBanque.sqf = Economie\EBanque.sqf
 		Economie\ECreation.sqf = Economie\ECreation.sqf
+		InitATM.sqf = InitATM.sqf
 		Economie\InitNpc.sqf = Economie\InitNpc.sqf
 		Economie\Resources.sqf = Economie\Resources.sqf
 		Economie\Shop.sqf = Economie\Shop.sqf
@@ -201,6 +199,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", 
 		ServerColdWarRp\Ressources\Tree_Ru.sqf = ServerColdWarRp\Ressources\Tree_Ru.sqf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{215531CE-3035-4DC4-AA92-1FEC52D04422}"
+	ProjectSection(SolutionItems) = preProject
+		core\fn_RespawnCivil.sqf = core\fn_RespawnCivil.sqf
+		core\fn_RespawnEast.sqf = core\fn_RespawnEast.sqf
+		core\fn_RespawnIndependent.sqf = core\fn_RespawnIndependent.sqf
+		core\fn_RespawnWest.sqf = core\fn_RespawnWest.sqf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -221,5 +227,6 @@ Global
 		{AFC50814-30A5-4794-B093-B75AFDF3DF13} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
 		{17D20A9C-BC64-47D5-A9D0-F3ABD787B436} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
 		{19F5B347-E143-4DCE-9FBB-9AA6ECD40A12} = {842FE56B-732D-47B3-909B-2A41135E9A1D}
+		{215531CE-3035-4DC4-AA92-1FEC52D04422} = {DA2ABD09-A316-438A-9891-F69C290389CB}
 	EndGlobalSection
 EndGlobal
