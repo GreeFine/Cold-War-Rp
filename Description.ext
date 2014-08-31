@@ -19,6 +19,10 @@ enableItemsDropping = 0;
 #include "dialoglicense.hpp"
 #include "hud\HUD.hpp"
 
+class CfgFunctions
+{
+	#include "Functions.h"
+};
 
 class Header
 {
