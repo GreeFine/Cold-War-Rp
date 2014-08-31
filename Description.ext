@@ -5,7 +5,7 @@ scriptedPlayer = 1;
 respawnButton = 0;
 Counter = true;
 author="GreeFine/Le Kurde";
-OnLoadName = "La guerre froide est de retour";
+OnLoadName = "Le combat pour Altis";
 OnLoadMission = "Cold War Rp Fr";
 loadScreen = "images\coldwar.paa";
 allowFunctionsLog = 1;
@@ -39,19 +39,19 @@ class CfgRespawnTemplates
 {
 	class RespawnCivil
 	{
-		onPlayerRespawn = "core\fn_RespawnCivil.sqf";
+		onPlayerRespawn = "ColdWar_fnc_RespawnCivil";
 	};
 	class RespawnWest
 	{
-		onPlayerRespawn = "core\fn_RespawnWest.sqf";
+		onPlayerRespawn = "ColdWar_fnc_RespawnWest";
 	};
 	class RespawnIndependent
 	{
-		onPlayerRespawn = "core\fn_RespawnIndependent.sqf";
+		onPlayerRespawn = "ColdWar_fnc_RespawnIndependent";
 	};
 	class respawnEast
 	{
-		onPlayerRespawn = "core\fn_RespawnEast.sqf";
+		onPlayerRespawn = "ColdWar_fnc_RespawnEast";
 	};
 };
 
